@@ -151,6 +151,9 @@ function showPracticeScreen() {
     document.getElementById('practiceScreen').classList.add('active');
     state.currentState = 'practice';
     
+    // Scroll vers le haut de la page
+    window.scrollTo(0, 0);
+    
     // Réinitialiser l'état de révélation
     state.revealed = { hint: false, demo: false, answer: false };
     state.currentExerciseIndex = 0;
@@ -176,6 +179,9 @@ function showPracticeScreen() {
 function displayExercise(exercise, index, total) {
     const themeExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
     const lesson = state.lessons.find(l => l.theme === state.currentTheme);
+    
+    // Scroll vers le haut de la page
+    window.scrollTo(0, 0);
     
     // Titre et compteur
     document.getElementById('practiceTitle').textContent = lesson ? lesson.titre : state.currentTheme;
