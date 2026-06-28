@@ -6,7 +6,7 @@
 const state = {
     lessons: [],
     exercises: [],
-    themes: new Set(),
+    themes: [], // Utiliser un tableau au lieu d'un Set pour un ordre stable
     currentTheme: null,
     currentExerciseIndex: 0,
     currentState: 'home', // home, lesson, practice
@@ -31,10 +31,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         state.lessons = await lessonsResponse.json();
         state.exercises = await exercisesResponse.json();
         
-        // Extraire les thèmes uniques à partir des exercices disponibles
+        // Extraire les thèmes uniques à partir des exercices et les trier
+        const uniqueThemes = new Set();
         state.exercises.forEach(exercise => {
-            state.themes.add(exercise.theme);
+            uniqueThemes.add(exercise.theme);
         });
+        state.themes = Array.from(uniqueThemes).sort();
         
         // Afficher l'écran d'accueil
         showHomeScreen();
@@ -98,6 +100,8 @@ function showLessonScreen() {
     
     if (!lesson) {
         console.error('Leçon non trouvée pour le thème:', state.currentTheme);
+        alert('Erreur : Aucune leçon trouvée pour ce thème. Veuillez sélectionner un autre thème.');
+        showHomeScreen();
         return;
     }
     
