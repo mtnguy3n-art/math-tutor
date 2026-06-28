@@ -80,12 +80,23 @@ function showHomeScreen() {
 }
 
 /**
- * Sélectionner un thème et afficher la leçon
+ * Sélectionner un thème et afficher la leçon (ou les exercices si pas de leçon)
  */
 function selectTheme(theme) {
     state.currentTheme = theme;
     state.revealed = { hint: false, demo: false, answer: false };
-    showLessonScreen();
+    
+    // Vérifier s'il existe une leçon pour ce thème
+    const lesson = state.lessons.find(l => l.theme === theme);
+    
+    if (lesson) {
+        // S'il y a une leçon, l'afficher
+        showLessonScreen();
+    } else {
+        // S'il n'y a pas de leçon, aller directement aux exercices
+        console.warn('Aucune leçon trouvée pour le thème:', theme, '- Passage direct aux exercices.');
+        showPracticeScreen();
+    }
 }
 
 /**
