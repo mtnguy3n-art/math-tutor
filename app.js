@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         state.lessons = await lessonsResponse.json();
         state.exercises = await exercisesResponse.json();
         
-        // Extraire les thèmes uniques (de préférence des leçons)
-        state.lessons.forEach(lesson => {
-            state.themes.add(lesson.theme);
+        // Extraire les thèmes uniques à partir des exercices disponibles
+        state.exercises.forEach(exercise => {
+            state.themes.add(exercise.theme);
         });
         
         // Afficher l'écran d'accueil
