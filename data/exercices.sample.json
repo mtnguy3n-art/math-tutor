@@ -1,0 +1,56 @@
+[
+  {
+    "id": "frac-001",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un sac contient 24 billes. Les 3/8 des billes sont bleues et le 1/4 des billes sont rouges. Le reste des billes est vert. Combien y a-t-il de billes vertes ?",
+    "vocabulaire": [
+      {
+        "terme": "les 3/8 des billes",
+        "sens": "Une fraction d'une quantité : on prend 3 parts sur 8 du total de 24."
+      },
+      {
+        "terme": "le reste",
+        "sens": "Ce qui n'est ni bleu ni rouge. Ce mot indique souvent une soustraction."
+      }
+    ],
+    "indice": "Commence par trouver le nombre de billes bleues : combien font les 3/8 de 24 ?",
+    "demarche": {
+      "comprendre": "On cherche le nombre de billes VERTES. Données : 24 billes au total, 3/8 sont bleues, 1/4 sont rouges. « Le reste » désigne les billes qui ne sont ni bleues ni rouges.",
+      "organiser": "Stratégie : 1) calculer le nombre de billes bleues; 2) calculer le nombre de billes rouges; 3) les additionner; 4) soustraire ce total de 24.",
+      "resoudre": "Bleues : 3/8 × 24 = 9. Rouges : 1/4 × 24 = 6. Bleues + rouges = 9 + 6 = 15. Vertes : 24 − 15 = 9.",
+      "verifier": "9 (bleues) + 6 (rouges) + 9 (vertes) = 24, ce qui correspond bien au total. La réponse a du sens."
+    },
+    "reponse": "Il y a 9 billes vertes."
+  },
+  {
+    "id": "perim-001",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Annie veut installer une bordure décorative tout autour d'un parterre de fleurs rectangulaire qui mesure 9 m de longueur sur 4 m de largeur. La bordure se vend en sections de 1 m, à 6 $ la section. Combien Annie doit-elle payer pour entourer complètement son parterre ?",
+    "vocabulaire": [
+      {
+        "terme": "tout autour / entourer",
+        "sens": "Indique le PÉRIMÈTRE (le contour de la figure), et non l'aire (la surface intérieure)."
+      },
+      {
+        "terme": "périmètre",
+        "sens": "La longueur totale du contour d'une figure. Pour un rectangle : 2 × (longueur + largeur)."
+      },
+      {
+        "terme": "aire",
+        "sens": "La surface à l'intérieur de la figure. Attention : ce n'est PAS ce qu'on cherche ici."
+      }
+    ],
+    "indice": "« Tout autour », est-ce le périmètre ou l'aire ? Comment calcule-t-on le périmètre d'un rectangle ?",
+    "demarche": {
+      "comprendre": "On cherche le COÛT pour entourer le parterre. Les mots « tout autour » et « entourer » indiquent qu'il faut calculer le périmètre, pas l'aire. Données : longueur 9 m, largeur 4 m, 6 $ par section de 1 m.",
+      "organiser": "Stratégie : 1) calculer le périmètre du rectangle; 2) chaque mètre correspond à 1 section; 3) multiplier le nombre de sections par 6 $.",
+      "resoudre": "Périmètre = 2 × (9 + 4) = 2 × 13 = 26 m. Donc 26 sections. Coût = 26 × 6 = 156 $.",
+      "verifier": "On peut additionner les quatre côtés : 9 + 4 + 9 + 4 = 26 m. Puis 26 × 6 = 156 $. La réponse a du sens."
+    },
+    "reponse": "Annie doit payer 156 $."
+  }
+]

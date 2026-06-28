@@ -1,0 +1,70 @@
+[
+  {
+    "id": "lecon-frac-001",
+    "theme": "fractions",
+    "titre": "Les fractions",
+    "explication": "Une fraction est une partie d'un tout. Elle se compose d'un numérateur (le haut) et d'un dénominateur (le bas). Quand on calcule une fraction d'une quantité, on divise la quantité par le dénominateur, puis on multiplie par le numérateur. Par exemple, 1/4 de 20, c'est 20 ÷ 4 × 1 = 5.",
+    "vocabulaire": [
+      {
+        "terme": "numérateur",
+        "definition": "Le nombre en haut de la fraction. Il indique combien de parts on prend."
+      },
+      {
+        "terme": "dénominateur",
+        "definition": "Le nombre en bas de la fraction. Il indique en combien de parts égales le tout est divisé."
+      },
+      {
+        "terme": "une fraction d'une quantité",
+        "definition": "Quand on multiplie une fraction par un nombre entier (ex. : 3/4 × 16), on cherche combien cela représente du tout."
+      },
+      {
+        "terme": "fraction équivalente",
+        "definition": "Deux fractions qui représentent la même valeur (ex. : 1/2 = 2/4)."
+      }
+    ],
+    "exemple": {
+      "enonce": "Sarah a 12 biscuits. Elle en donne les 2/3 à son ami. Combien de biscuits donne-t-elle ?",
+      "comprendre": "On cherche combien de biscuits représentent les 2/3 de 12. La fraction 2/3 signifie : « 2 parts sur 3 ».",
+      "organiser": "Stratégie : 1) Diviser 12 par le dénominateur (3) pour trouver la valeur d'une part. 2) Multiplier le résultat par le numérateur (2) pour obtenir 2 parts.",
+      "resoudre": "Une part : 12 ÷ 3 = 4. Deux parts : 4 × 2 = 8. Donc 2/3 de 12 = 8.",
+      "verifier": "On peut vérifier : 8 + 4 = 12 (puisque 2/3 + 1/3 = 1 tout). La réponse a du sens : 8 est bien plus petit que 12, comme prévu pour une fraction."
+    },
+    "reponse": "Sarah donne 8 biscuits à son ami."
+  },
+  {
+    "id": "lecon-perim-aire-001",
+    "theme": "perimetre-et-aire",
+    "titre": "Périmètre et aire",
+    "explication": "Le périmètre est la longueur du contour d'une figure — on l'utilise quand il faut entourer ou faire le tour. L'aire est la surface à l'intérieur de la figure — on l'utilise quand on parle de ce qui remplit la figure. Pour un rectangle, le périmètre se calcule en ajoutant tous les côtés : P = 2 × (longueur + largeur). L'aire se calcule en multipliant la longueur par la largeur : A = longueur × largeur.",
+    "vocabulaire": [
+      {
+        "terme": "périmètre",
+        "definition": "La longueur totale du contour d'une figure. Elle s'exprime en unités de longueur (m, cm, etc.)."
+      },
+      {
+        "terme": "aire",
+        "definition": "La surface à l'intérieur d'une figure. Elle s'exprime en unités carrées (m², cm², etc.)."
+      },
+      {
+        "terme": "contour",
+        "definition": "La limite extérieure d'une figure. Quand on « fait le tour », on trace le contour."
+      },
+      {
+        "terme": "rectangle",
+        "definition": "Une figure à 4 côtés avec 4 angles droits. Les côtés opposés sont égaux."
+      },
+      {
+        "terme": "longueur et largeur",
+        "definition": "Les deux dimensions d'un rectangle. La longueur est généralement le côté le plus long."
+      }
+    ],
+    "exemple": {
+      "enonce": "Un terrain rectangulaire mesure 10 m de longueur et 6 m de largeur. Quel est son périmètre ?",
+      "comprendre": "On cherche le périmètre — la distance autour du terrain. Données : longueur 10 m, largeur 6 m. Le mot « autour » indique qu'il faut calculer le périmètre, pas l'aire.",
+      "organiser": "Stratégie : Pour un rectangle, le périmètre est 2 × (longueur + largeur). Ou on peut additionner les 4 côtés : 10 + 6 + 10 + 6.",
+      "resoudre": "Méthode 1 : P = 2 × (10 + 6) = 2 × 16 = 32 m. Méthode 2 : P = 10 + 6 + 10 + 6 = 32 m.",
+      "verifier": "Les deux méthodes donnent le même résultat. Le périmètre (32 m) est plus grand que la longueur (10 m), ce qui a du sens."
+    },
+    "reponse": "Le périmètre du terrain est 32 m."
+  }
+]
