@@ -66,5 +66,41 @@
       "verifier": "Les deux méthodes donnent le même résultat. Le périmètre (32 m) est plus grand que la longueur (10 m), ce qui a du sens."
     },
     "reponse": "Le périmètre du terrain est 32 m."
+  },
+  {
+    "id": "lecon-nombres-entiers-001",
+    "theme": "nombres-entiers",
+    "titre": "Les nombres entiers",
+    "explication": "Les nombres entiers incluent les nombres positifs, négatifs et zéro. Un nombre positif est supérieur à zéro, un nombre négatif est inférieur à zéro. On utilise les nombres négatifs pour représenter des situations comme les températures sous zéro ou les dettes. Pour additionner ou soustraire des nombres entiers, il est utile de penser à une droite numérique : se déplacer vers la droite pour ajouter, vers la gauche pour soustraire.",
+    "vocabulaire": [
+      {
+        "terme": "nombre entier",
+        "definition": "Un nombre sans décimale, pouvant être positif, négatif ou zéro. Exemples : -5, 0, 12."
+      },
+      {
+        "terme": "nombre positif",
+        "definition": "Un nombre supérieur à zéro. On peut écrire +5 ou simplement 5."
+      },
+      {
+        "terme": "nombre négatif",
+        "definition": "Un nombre inférieur à zéro. On l'écrit toujours avec un signe moins : -5."
+      },
+      {
+        "terme": "droite numérique",
+        "definition": "Une ligne qui représente les nombres dans l'ordre. Les négatifs sont à gauche, les positifs à droite, zéro au centre."
+      },
+      {
+        "terme": "opposé",
+        "definition": "Le nombre qui a la même valeur absolue mais le signe contraire. L'opposé de 5 est -5, et vice-versa."
+      }
+    ],
+    "exemple": {
+      "enonce": "Ce matin, la température était -3 °C. À midi, elle a augmenté de 8 °C. Quelle était la température à midi ?",
+      "comprendre": "On part de -3 °C et on ajoute 8 °C. Il faut calculer : -3 + 8. Le matin c'était négatif (sous zéro), puis la température a augmenté.",
+      "organiser": "Stratégie : Utiliser la droite numérique. Partir de -3 et se déplacer de 8 unités vers la droite (augmenter).",
+      "resoudre": "En partant de -3 et en ajoutant 8 : -3 + 8 = 5.",
+      "verifier": "Vérification : -3 + 3 = 0, puis 0 + 5 = 5. Donc -3 + 8 = 5. C'est logique : une augmentation de 8 °C à partir de -3 °C donne 5 °C au-dessus de zéro."
+    },
+    "reponse": "La température à midi était 5 °C."
   }
 ]
