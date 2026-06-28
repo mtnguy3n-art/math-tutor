@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuteur de Mathématiques - 1re Secondaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Écran d'accueil : sélection du thème -->
+    <div id="homeScreen" class="screen active">
+        <header class="header">
+            <h1>Tuteur de Mathématiques</h1>
+            <p>1re secondaire</p>
+        </header>
+        <main class="content">
+            <h2>Choisis un thème</h2>
+            <div id="topicList" class="topic-list">
+                <!-- Les thèmes seront chargés dynamiquement ici -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Écran de leçon : apprentissage d'un thème -->
+    <div id="lessonScreen" class="screen">
+        <header class="header">
+            <button id="backFromLesson" class="back-button">← Retour</button>
+            <h1 id="lessonTitle"></h1>
+        </header>
+        <main class="content">
+            <section class="lesson-content">
+                <h2>Explication</h2>
+                <p id="lessonExplication"></p>
+
+                <h2>Vocabulaire important</h2>
+                <div id="lessonVocabulaire" class="vocabulary-list">
+                    <!-- Les termes seront chargés dynamiquement ici -->
+                </div>
+
+                <h2>Exemple travaillé</h2>
+                <div class="worked-example">
+                    <p class="enonce-label"><strong>Énoncé :</strong></p>
+                    <p id="exampleEnonce"></p>
+
+                    <div class="demarche-steps">
+                        <div class="step">
+                            <h3>Comprendre</h3>
+                            <p id="exampleComprendre"></p>
+                        </div>
+                        <div class="step">
+                            <h3>Organiser</h3>
+                            <p id="exampleOrganiser"></p>
+                        </div>
+                        <div class="step">
+                            <h3>Résoudre</h3>
+                            <p id="exampleResoudre"></p>
+                        </div>
+                        <div class="step">
+                            <h3>Vérifier</h3>
+                            <p id="exampleVerifier"></p>
+                        </div>
+                    </div>
+
+                    <p class="response-label"><strong>Réponse :</strong></p>
+                    <p id="exampleReponse" class="highlight"></p>
+                </div>
+
+                <button id="startPractice" class="btn-primary">Commencer les exercices</button>
+            </section>
+        </main>
+    </div>
+
+    <!-- Écran de pratique : résolution d'exercices -->
+    <div id="practiceScreen" class="screen">
+        <header class="header">
+            <button id="backFromPractice" class="back-button">← Retour</button>
+            <h1 id="practiceTitle"></h1>
+            <p id="exerciseCounter"></p>
+        </header>
+        <main class="content">
+            <section class="practice-content">
+                <!-- Énoncé de l'exercice -->
+                <div id="exerciseEnonce" class="exercise-enonce">
+                    <h2>Problème</h2>
+                    <p id="enonce"></p>
+                </div>
+
+                <!-- Vocabulaire de l'exercice -->
+                <div id="exerciseVocab" class="exercise-vocab">
+                    <h3>Vocabulaire de ce problème</h3>
+                    <div id="vocabList"></div>
+                </div>
+
+                <!-- Quatre étapes toujours visibles -->
+                <div class="demarche-container">
+                    <h2>Démarche de résolution</h2>
+                    <div class="demarche-steps">
+                        <div class="step">
+                            <h3>Comprendre</h3>
+                            <p id="comprendre" class="step-content"></p>
+                        </div>
+                        <div class="step">
+                            <h3>Organiser</h3>
+                            <p id="organiser" class="step-content"></p>
+                        </div>
+                        <div class="step">
+                            <h3>Résoudre</h3>
+                            <p id="resoudre" class="step-content"></p>
+                        </div>
+                        <div class="step">
+                            <h3>Vérifier</h3>
+                            <p id="verifier" class="step-content"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Réponse finale -->
+                <div id="reponseContainer" class="reponse-container" style="display: none;">
+                    <h3>Réponse</h3>
+                    <p id="reponse" class="highlight"></p>
+                </div>
+
+                <!-- Boutons de progression progressive -->
+                <div class="buttons-group">
+                    <button id="hintButton" class="btn-secondary">Voir un indice</button>
+                    <button id="demoButton" class="btn-secondary" style="display: none;">Voir la démarche</button>
+                    <button id="answerButton" class="btn-secondary" style="display: none;">Voir la réponse</button>
+                    <button id="nextButton" class="btn-primary" style="display: none;">Prochain exercice</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

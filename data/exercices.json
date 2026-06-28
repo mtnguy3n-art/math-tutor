@@ -1,0 +1,2422 @@
+[
+  {
+    "id": "frac-001",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un sac contient 24 billes. Les 3/8 des billes sont bleues et le 1/4 des billes sont rouges. Le reste des billes est vert. Combien y a-t-il de billes vertes ?",
+    "vocabulaire": [
+      {
+        "terme": "les 3/8 des billes",
+        "sens": "Une fraction d'une quantité : on prend 3 parts sur 8 du total de 24."
+      },
+      {
+        "terme": "le reste",
+        "sens": "Ce qui n'est ni bleu ni rouge. Ce mot indique souvent une soustraction."
+      }
+    ],
+    "indice": "Commence par trouver le nombre de billes bleues : combien font les 3/8 de 24 ?",
+    "demarche": {
+      "comprendre": "On cherche le nombre de billes VERTES. Données : 24 billes au total, 3/8 sont bleues, 1/4 sont rouges. « Le reste » désigne les billes qui ne sont ni bleues ni rouges.",
+      "organiser": "Stratégie : 1) calculer le nombre de billes bleues; 2) calculer le nombre de billes rouges; 3) les additionner; 4) soustraire ce total de 24.",
+      "resoudre": "Bleues : 3/8 × 24 = 9. Rouges : 1/4 × 24 = 6. Bleues + rouges = 9 + 6 = 15. Vertes : 24 − 15 = 9.",
+      "verifier": "9 (bleues) + 6 (rouges) + 9 (vertes) = 24, ce qui correspond bien au total. La réponse a du sens."
+    },
+    "reponse": "Il y a 9 billes vertes."
+  },
+  {
+    "id": "perim-001",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Annie veut installer une bordure décorative tout autour d'un parterre de fleurs rectangulaire qui mesure 9 m de longueur sur 4 m de largeur. La bordure se vend en sections de 1 m, à 6 $ la section. Combien Annie doit-elle payer pour entourer complètement son parterre ?",
+    "vocabulaire": [
+      {
+        "terme": "tout autour / entourer",
+        "sens": "Indique le PÉRIMÈTRE (le contour de la figure), et non l'aire (la surface intérieure)."
+      },
+      {
+        "terme": "périmètre",
+        "sens": "La longueur totale du contour d'une figure. Pour un rectangle : 2 × (longueur + largeur)."
+      },
+      {
+        "terme": "aire",
+        "sens": "La surface à l'intérieur de la figure. Attention : ce n'est PAS ce qu'on cherche ici."
+      }
+    ],
+    "indice": "« Tout autour », est-ce le périmètre ou l'aire ? Comment calcule-t-on le périmètre d'un rectangle ?",
+    "demarche": {
+      "comprendre": "On cherche le COÛT pour entourer le parterre. Les mots « tout autour » et « entourer » indiquent qu'il faut calculer le périmètre, pas l'aire. Données : longueur 9 m, largeur 4 m, 6 $ par section de 1 m.",
+      "organiser": "Stratégie : 1) calculer le périmètre du rectangle; 2) chaque mètre correspond à 1 section; 3) multiplier le nombre de sections par 6 $.",
+      "resoudre": "Périmètre = 2 × (9 + 4) = 2 × 13 = 26 m. Donc 26 sections. Coût = 26 × 6 = 156 $.",
+      "verifier": "On peut additionner les quatre côtés : 9 + 4 + 9 + 4 = 26 m. Puis 26 × 6 = 156 $. La réponse a du sens."
+    },
+    "reponse": "Annie doit payer 156 $."
+  },
+  {
+    "id": "frac-002",
+    "theme": "fractions",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Olivia a lu les 1/5 des 40 pages d'un livre. Combien cela fait-il ?",
+    "vocabulaire": [
+      {
+        "terme": "les 1/5 de 40",
+        "sens": "Fraction d'une quantité : 1 part(s) sur 5 de 40."
+      }
+    ],
+    "indice": "Divise 40 par 5, puis multiplie par 1.",
+    "demarche": {
+      "comprendre": "On cherche les 1/5 de 40 pages d'un livre.",
+      "organiser": "Pour une fraction d'une quantité : diviser par le dénominateur, puis multiplier par le numérateur.",
+      "resoudre": "40 ÷ 5 = 8. 8 × 1 = 8.",
+      "verifier": "Vérification : 1/5 × 40 = 8. Le résultat est plus petit que 40, ce qui est normal pour une fraction inférieure à 1."
+    },
+    "reponse": "Cela fait 8."
+  },
+  {
+    "id": "frac-003",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Le midi, Liam a pris 1/4 d'une pizza et le soir 1/16 d'une pizza. Au total, quelle fraction d'une pizza cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "en tout",
+        "sens": "Indique qu'il faut additionner les deux fractions."
+      },
+      {
+        "terme": "dénominateur commun",
+        "sens": "Pour additionner deux fractions, elles doivent avoir le même dénominateur."
+      }
+    ],
+    "indice": "Transforme 1/4 en une fraction de dénominateur 16.",
+    "demarche": {
+      "comprendre": "On additionne 1/4 et 1/16.",
+      "organiser": "Mettre les fractions au même dénominateur. Comme 16 est un multiple de 4, on transforme 1/4 en 4/16.",
+      "resoudre": "1/4 = 4/16. Puis 4/16 + 1/16 = 5/16.",
+      "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
+    },
+    "reponse": "5/16 d'une pizza."
+  },
+  {
+    "id": "frac-004",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Édouard possède 30 billes. Les 1/6 sont bleues et les 1/3 sont rouges. Le reste est d'une autre sorte. Combien y a-t-il de billes de cette autre sorte ?",
+    "vocabulaire": [
+      {
+        "terme": "les 1/6 des billes",
+        "sens": "Une fraction d'une quantité : on prend 1 part(s) sur 6 du total de 30."
+      },
+      {
+        "terme": "le reste",
+        "sens": "Ce qui n'a pas encore été compté; indique une soustraction."
+      }
+    ],
+    "indice": "Combien font les 1/6 de 30 ?",
+    "demarche": {
+      "comprendre": "On cherche combien de billes sont d'une autre sorte. Total : 30. Bleues : 1/6. Rouges : 1/3. « Le reste » = ni l'un ni l'autre.",
+      "organiser": "1) calculer chaque groupe (fraction d'une quantité); 2) additionner les deux groupes; 3) soustraire du total.",
+      "resoudre": "1/6 × 30 = 5. 1/3 × 30 = 10. 5 + 10 = 15. Reste : 30 − 15 = 15.",
+      "verifier": "5 + 10 + 15 = 30 : on retrouve le total. La réponse est cohérente."
+    },
+    "reponse": "Il y a 15 billes de l'autre sorte."
+  },
+  {
+    "id": "frac-005",
+    "theme": "fractions",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Édouard possède 60 crayons. Les 3/4 sont bleus et les 1/5 sont verts. Le reste est d'une autre sorte. Combien y a-t-il de crayons de cette autre sorte ?",
+    "vocabulaire": [
+      {
+        "terme": "les 3/4 des crayons",
+        "sens": "Une fraction d'une quantité : on prend 3 part(s) sur 4 du total de 60."
+      },
+      {
+        "terme": "le reste",
+        "sens": "Ce qui n'a pas encore été compté; indique une soustraction."
+      }
+    ],
+    "indice": "Combien font les 3/4 de 60 ?",
+    "demarche": {
+      "comprendre": "On cherche combien de crayons sont d'une autre sorte. Total : 60. Bleus : 3/4. Verts : 1/5. « Le reste » = ni l'un ni l'autre.",
+      "organiser": "1) calculer chaque groupe (fraction d'une quantité); 2) additionner les deux groupes; 3) soustraire du total.",
+      "resoudre": "3/4 × 60 = 45. 1/5 × 60 = 12. 45 + 12 = 57. Reste : 60 − 57 = 3.",
+      "verifier": "45 + 12 + 3 = 60 : on retrouve le total. La réponse est cohérente."
+    },
+    "reponse": "Il y a 3 crayons de l'autre sorte."
+  },
+  {
+    "id": "frac-006",
+    "theme": "fractions",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Le midi, William a mangé 1/2 de tarte et le soir 3/8 de tarte. Au total, quelle fraction de tarte cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "en tout",
+        "sens": "Indique qu'il faut additionner les deux fractions."
+      },
+      {
+        "terme": "dénominateur commun",
+        "sens": "Pour additionner deux fractions, elles doivent avoir le même dénominateur."
+      }
+    ],
+    "indice": "Transforme 1/2 en une fraction de dénominateur 8.",
+    "demarche": {
+      "comprendre": "On additionne 1/2 et 3/8.",
+      "organiser": "Mettre les fractions au même dénominateur. Comme 8 est un multiple de 2, on transforme 1/2 en 4/8.",
+      "resoudre": "1/2 = 4/8. Puis 4/8 + 3/8 = 7/8.",
+      "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
+    },
+    "reponse": "7/8 de tarte."
+  },
+  {
+    "id": "frac-007",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Le midi, Maya a pris 1/2 d'une pizza et le soir 1/8 d'une pizza. Au total, quelle fraction d'une pizza cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "en tout",
+        "sens": "Indique qu'il faut additionner les deux fractions."
+      },
+      {
+        "terme": "dénominateur commun",
+        "sens": "Pour additionner deux fractions, elles doivent avoir le même dénominateur."
+      }
+    ],
+    "indice": "Transforme 1/2 en une fraction de dénominateur 8.",
+    "demarche": {
+      "comprendre": "On additionne 1/2 et 1/8.",
+      "organiser": "Mettre les fractions au même dénominateur. Comme 8 est un multiple de 2, on transforme 1/2 en 4/8.",
+      "resoudre": "1/2 = 4/8. Puis 4/8 + 1/8 = 5/8.",
+      "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
+    },
+    "reponse": "5/8 d'une pizza."
+  },
+  {
+    "id": "frac-008",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Le midi, Jacob a bu 1/4 d'un litre d'eau et le soir 1/12 d'un litre d'eau. Au total, quelle fraction d'un litre d'eau cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "en tout",
+        "sens": "Indique qu'il faut additionner les deux fractions."
+      },
+      {
+        "terme": "dénominateur commun",
+        "sens": "Pour additionner deux fractions, elles doivent avoir le même dénominateur."
+      }
+    ],
+    "indice": "Transforme 1/4 en une fraction de dénominateur 12.",
+    "demarche": {
+      "comprendre": "On additionne 1/4 et 1/12.",
+      "organiser": "Mettre les fractions au même dénominateur. Comme 12 est un multiple de 4, on transforme 1/4 en 3/12.",
+      "resoudre": "1/4 = 3/12. Puis 3/12 + 1/12 = 4/12 = 1/3 (simplifié).",
+      "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
+    },
+    "reponse": "1/3 d'un litre d'eau."
+  },
+  {
+    "id": "frac-009",
+    "theme": "fractions",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Thomas a lu les 2/5 des 40 pages d'un livre. Combien cela fait-il ?",
+    "vocabulaire": [
+      {
+        "terme": "les 2/5 de 40",
+        "sens": "Fraction d'une quantité : 2 part(s) sur 5 de 40."
+      }
+    ],
+    "indice": "Divise 40 par 5, puis multiplie par 2.",
+    "demarche": {
+      "comprendre": "On cherche les 2/5 de 40 pages d'un livre.",
+      "organiser": "Pour une fraction d'une quantité : diviser par le dénominateur, puis multiplier par le numérateur.",
+      "resoudre": "40 ÷ 5 = 8. 8 × 2 = 16.",
+      "verifier": "Vérification : 2/5 × 40 = 16. Le résultat est plus petit que 40, ce qui est normal pour une fraction inférieure à 1."
+    },
+    "reponse": "Cela fait 16."
+  },
+  {
+    "id": "frac-010",
+    "theme": "fractions",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Le midi, Félix a pris 1/5 d'une pizza et le soir 1/15 d'une pizza. Au total, quelle fraction d'une pizza cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "en tout",
+        "sens": "Indique qu'il faut additionner les deux fractions."
+      },
+      {
+        "terme": "dénominateur commun",
+        "sens": "Pour additionner deux fractions, elles doivent avoir le même dénominateur."
+      }
+    ],
+    "indice": "Transforme 1/5 en une fraction de dénominateur 15.",
+    "demarche": {
+      "comprendre": "On additionne 1/5 et 1/15.",
+      "organiser": "Mettre les fractions au même dénominateur. Comme 15 est un multiple de 5, on transforme 1/5 en 3/15.",
+      "resoudre": "1/5 = 3/15. Puis 3/15 + 1/15 = 4/15.",
+      "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
+    },
+    "reponse": "4/15 d'une pizza."
+  },
+  {
+    "id": "frac-011",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Antoine possède 16 crayons. Les 1/2 sont bleus et les 3/8 sont verts. Le reste est d'une autre sorte. Combien y a-t-il de crayons de cette autre sorte ?",
+    "vocabulaire": [
+      {
+        "terme": "les 1/2 des crayons",
+        "sens": "Une fraction d'une quantité : on prend 1 part(s) sur 2 du total de 16."
+      },
+      {
+        "terme": "le reste",
+        "sens": "Ce qui n'a pas encore été compté; indique une soustraction."
+      }
+    ],
+    "indice": "Combien font les 1/2 de 16 ?",
+    "demarche": {
+      "comprendre": "On cherche combien de crayons sont d'une autre sorte. Total : 16. Bleus : 1/2. Verts : 3/8. « Le reste » = ni l'un ni l'autre.",
+      "organiser": "1) calculer chaque groupe (fraction d'une quantité); 2) additionner les deux groupes; 3) soustraire du total.",
+      "resoudre": "1/2 × 16 = 8. 3/8 × 16 = 6. 8 + 6 = 14. Reste : 16 − 14 = 2.",
+      "verifier": "8 + 6 + 2 = 16 : on retrouve le total. La réponse est cohérente."
+    },
+    "reponse": "Il y a 2 crayons de l'autre sorte."
+  },
+  {
+    "id": "frac-012",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Sofia a lu les 1/5 des 60 pages d'un livre. Combien cela fait-il ?",
+    "vocabulaire": [
+      {
+        "terme": "les 1/5 de 60",
+        "sens": "Fraction d'une quantité : 1 part(s) sur 5 de 60."
+      }
+    ],
+    "indice": "Divise 60 par 5, puis multiplie par 1.",
+    "demarche": {
+      "comprendre": "On cherche les 1/5 de 60 pages d'un livre.",
+      "organiser": "Pour une fraction d'une quantité : diviser par le dénominateur, puis multiplier par le numérateur.",
+      "resoudre": "60 ÷ 5 = 12. 12 × 1 = 12.",
+      "verifier": "Vérification : 1/5 × 60 = 12. Le résultat est plus petit que 60, ce qui est normal pour une fraction inférieure à 1."
+    },
+    "reponse": "Cela fait 12."
+  },
+  {
+    "id": "frac-013",
+    "theme": "fractions",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Nathan a lu les 1/8 des 64 pages d'un livre. Combien cela fait-il ?",
+    "vocabulaire": [
+      {
+        "terme": "les 1/8 de 64",
+        "sens": "Fraction d'une quantité : 1 part(s) sur 8 de 64."
+      }
+    ],
+    "indice": "Divise 64 par 8, puis multiplie par 1.",
+    "demarche": {
+      "comprendre": "On cherche les 1/8 de 64 pages d'un livre.",
+      "organiser": "Pour une fraction d'une quantité : diviser par le dénominateur, puis multiplier par le numérateur.",
+      "resoudre": "64 ÷ 8 = 8. 8 × 1 = 8.",
+      "verifier": "Vérification : 1/8 × 64 = 8. Le résultat est plus petit que 64, ce qui est normal pour une fraction inférieure à 1."
+    },
+    "reponse": "Cela fait 8."
+  },
+  {
+    "id": "frac-014",
+    "theme": "fractions",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Le midi, Félix a bu 1/5 d'un litre d'eau et le soir 1/15 d'un litre d'eau. Au total, quelle fraction d'un litre d'eau cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "en tout",
+        "sens": "Indique qu'il faut additionner les deux fractions."
+      },
+      {
+        "terme": "dénominateur commun",
+        "sens": "Pour additionner deux fractions, elles doivent avoir le même dénominateur."
+      }
+    ],
+    "indice": "Transforme 1/5 en une fraction de dénominateur 15.",
+    "demarche": {
+      "comprendre": "On additionne 1/5 et 1/15.",
+      "organiser": "Mettre les fractions au même dénominateur. Comme 15 est un multiple de 5, on transforme 1/5 en 3/15.",
+      "resoudre": "1/5 = 3/15. Puis 3/15 + 1/15 = 4/15.",
+      "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
+    },
+    "reponse": "4/15 d'un litre d'eau."
+  },
+  {
+    "id": "frac-015",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Emma possède 60 billes. Les 1/5 sont bleues et les 1/2 sont rouges. Le reste est d'une autre sorte. Combien y a-t-il de billes de cette autre sorte ?",
+    "vocabulaire": [
+      {
+        "terme": "les 1/5 des billes",
+        "sens": "Une fraction d'une quantité : on prend 1 part(s) sur 5 du total de 60."
+      },
+      {
+        "terme": "le reste",
+        "sens": "Ce qui n'a pas encore été compté; indique une soustraction."
+      }
+    ],
+    "indice": "Combien font les 1/5 de 60 ?",
+    "demarche": {
+      "comprendre": "On cherche combien de billes sont d'une autre sorte. Total : 60. Bleues : 1/5. Rouges : 1/2. « Le reste » = ni l'un ni l'autre.",
+      "organiser": "1) calculer chaque groupe (fraction d'une quantité); 2) additionner les deux groupes; 3) soustraire du total.",
+      "resoudre": "1/5 × 60 = 12. 1/2 × 60 = 30. 12 + 30 = 42. Reste : 60 − 42 = 18.",
+      "verifier": "12 + 30 + 18 = 60 : on retrouve le total. La réponse est cohérente."
+    },
+    "reponse": "Il y a 18 billes de l'autre sorte."
+  },
+  {
+    "id": "frac-016",
+    "theme": "fractions",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Olivia a parcouru les 1/2 des 32 kilomètres d'un parcours. Combien cela fait-il ?",
+    "vocabulaire": [
+      {
+        "terme": "les 1/2 de 32",
+        "sens": "Fraction d'une quantité : 1 part(s) sur 2 de 32."
+      }
+    ],
+    "indice": "Divise 32 par 2, puis multiplie par 1.",
+    "demarche": {
+      "comprendre": "On cherche les 1/2 de 32 kilomètres d'un parcours.",
+      "organiser": "Pour une fraction d'une quantité : diviser par le dénominateur, puis multiplier par le numérateur.",
+      "resoudre": "32 ÷ 2 = 16. 16 × 1 = 16.",
+      "verifier": "Vérification : 1/2 × 32 = 16. Le résultat est plus petit que 32, ce qui est normal pour une fraction inférieure à 1."
+    },
+    "reponse": "Cela fait 16."
+  },
+  {
+    "id": "frac-017",
+    "theme": "fractions",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Maya a regardé les 2/3 des 18 minutes d'un film. Combien cela fait-il ?",
+    "vocabulaire": [
+      {
+        "terme": "les 2/3 de 18",
+        "sens": "Fraction d'une quantité : 2 part(s) sur 3 de 18."
+      }
+    ],
+    "indice": "Divise 18 par 3, puis multiplie par 2.",
+    "demarche": {
+      "comprendre": "On cherche les 2/3 de 18 minutes d'un film.",
+      "organiser": "Pour une fraction d'une quantité : diviser par le dénominateur, puis multiplier par le numérateur.",
+      "resoudre": "18 ÷ 3 = 6. 6 × 2 = 12.",
+      "verifier": "Vérification : 2/3 × 18 = 12. Le résultat est plus petit que 18, ce qui est normal pour une fraction inférieure à 1."
+    },
+    "reponse": "Cela fait 12."
+  },
+  {
+    "id": "frac-018",
+    "theme": "fractions",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Olivia a parcouru les 9/10 des 60 kilomètres d'un parcours. Combien cela fait-il ?",
+    "vocabulaire": [
+      {
+        "terme": "les 9/10 de 60",
+        "sens": "Fraction d'une quantité : 9 part(s) sur 10 de 60."
+      }
+    ],
+    "indice": "Divise 60 par 10, puis multiplie par 9.",
+    "demarche": {
+      "comprendre": "On cherche les 9/10 de 60 kilomètres d'un parcours.",
+      "organiser": "Pour une fraction d'une quantité : diviser par le dénominateur, puis multiplier par le numérateur.",
+      "resoudre": "60 ÷ 10 = 6. 6 × 9 = 54.",
+      "verifier": "Vérification : 9/10 × 60 = 54. Le résultat est plus petit que 60, ce qui est normal pour une fraction inférieure à 1."
+    },
+    "reponse": "Cela fait 54."
+  },
+  {
+    "id": "perim-002",
+    "theme": "perimetre-et-aire",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Une nappe carrée a un côté de 9 cm. Quel est son périmètre ?",
+    "vocabulaire": [
+      {
+        "terme": "carré",
+        "sens": "Un carré a 4 côtés égaux. Périmètre = 4 × côté."
+      }
+    ],
+    "indice": "Combien un carré a-t-il de côtés, et sont-ils égaux ?",
+    "demarche": {
+      "comprendre": "On cherche le périmètre d'un carré de côté 9 cm.",
+      "organiser": "Périmètre d'un carré = 4 × côté.",
+      "resoudre": "P = 4 × 9 = 36 cm.",
+      "verifier": "9+9+9+9 = 36 cm."
+    },
+    "reponse": "Le périmètre est de 36 cm."
+  },
+  {
+    "id": "perim-003",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Une salle rectangulaire mesure 6 m de longueur sur 4 m de largeur. Maya doit en recouvrir le sol. Quelle est la surface (l'aire) du plancher à recouvrir ?",
+    "vocabulaire": [
+      {
+        "terme": "surface / aire",
+        "sens": "L'AIRE, c'est l'intérieur. A = longueur × largeur pour un rectangle. À ne pas confondre avec le périmètre."
+      },
+      {
+        "terme": "recouvrir le sol",
+        "sens": "On couvre l'intérieur : c'est donc une question d'aire."
+      }
+    ],
+    "indice": "Recouvrir le sol, c'est l'aire ou le périmètre ?",
+    "demarche": {
+      "comprendre": "On cherche l'AIRE du plancher : 6 m × 4 m.",
+      "organiser": "Aire d'un rectangle = longueur × largeur.",
+      "resoudre": "A = 6 × 4 = 24 m².",
+      "verifier": "Les unités sont en m² (surface), ce qui confirme qu'on a calculé une aire et non un périmètre."
+    },
+    "reponse": "L'aire est de 24 m²."
+  },
+  {
+    "id": "perim-004",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Une salle rectangulaire mesure 11 m de longueur sur 5 m de largeur. Léa doit en recouvrir le sol. Quelle est la surface (l'aire) du plancher à recouvrir ?",
+    "vocabulaire": [
+      {
+        "terme": "surface / aire",
+        "sens": "L'AIRE, c'est l'intérieur. A = longueur × largeur pour un rectangle. À ne pas confondre avec le périmètre."
+      },
+      {
+        "terme": "recouvrir le sol",
+        "sens": "On couvre l'intérieur : c'est donc une question d'aire."
+      }
+    ],
+    "indice": "Recouvrir le sol, c'est l'aire ou le périmètre ?",
+    "demarche": {
+      "comprendre": "On cherche l'AIRE du plancher : 11 m × 5 m.",
+      "organiser": "Aire d'un rectangle = longueur × largeur.",
+      "resoudre": "A = 11 × 5 = 55 m².",
+      "verifier": "Les unités sont en m² (surface), ce qui confirme qu'on a calculé une aire et non un périmètre."
+    },
+    "reponse": "L'aire est de 55 m²."
+  },
+  {
+    "id": "perim-005",
+    "theme": "perimetre-et-aire",
+    "difficulte": "difficile",
+    "competence": "C2",
+    "enonce": "Un panneau a la forme d'un triangle dont la base mesure 4 cm et la hauteur 5 cm. Quelle est son aire ?",
+    "vocabulaire": [
+      {
+        "terme": "base / hauteur",
+        "sens": "Dans un triangle, l'aire se calcule avec la base et la hauteur."
+      },
+      {
+        "terme": "aire d'un triangle",
+        "sens": "A = (base × hauteur) ÷ 2."
+      }
+    ],
+    "indice": "Quelle est la formule de l'aire d'un triangle ?",
+    "demarche": {
+      "comprendre": "On cherche l'aire d'un triangle. Base = 4 cm, hauteur = 5 cm.",
+      "organiser": "Appliquer la formule A = (base × hauteur) ÷ 2.",
+      "resoudre": "A = (4 × 5) ÷ 2 = 20 ÷ 2 = 10 cm².",
+      "verifier": "L'aire d'un triangle est la moitié de celle du rectangle 4 × 5 = 20 cm². La moitié donne bien 10 cm²."
+    },
+    "reponse": "L'aire est de 10 cm²."
+  },
+  {
+    "id": "perim-006",
+    "theme": "perimetre-et-aire",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Un panneau a la forme d'un triangle dont la base mesure 12 cm et la hauteur 9 cm. Quelle est son aire ?",
+    "vocabulaire": [
+      {
+        "terme": "base / hauteur",
+        "sens": "Dans un triangle, l'aire se calcule avec la base et la hauteur."
+      },
+      {
+        "terme": "aire d'un triangle",
+        "sens": "A = (base × hauteur) ÷ 2."
+      }
+    ],
+    "indice": "Quelle est la formule de l'aire d'un triangle ?",
+    "demarche": {
+      "comprendre": "On cherche l'aire d'un triangle. Base = 12 cm, hauteur = 9 cm.",
+      "organiser": "Appliquer la formule A = (base × hauteur) ÷ 2.",
+      "resoudre": "A = (12 × 9) ÷ 2 = 108 ÷ 2 = 54 cm².",
+      "verifier": "L'aire d'un triangle est la moitié de celle du rectangle 12 × 9 = 108 cm². La moitié donne bien 54 cm²."
+    },
+    "reponse": "L'aire est de 54 cm²."
+  },
+  {
+    "id": "perim-007",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Une salle rectangulaire mesure 4 m de longueur sur 4 m de largeur. Béatrice doit en recouvrir le sol. Quelle est la surface (l'aire) du plancher à recouvrir ?",
+    "vocabulaire": [
+      {
+        "terme": "surface / aire",
+        "sens": "L'AIRE, c'est l'intérieur. A = longueur × largeur pour un rectangle. À ne pas confondre avec le périmètre."
+      },
+      {
+        "terme": "recouvrir le sol",
+        "sens": "On couvre l'intérieur : c'est donc une question d'aire."
+      }
+    ],
+    "indice": "Recouvrir le sol, c'est l'aire ou le périmètre ?",
+    "demarche": {
+      "comprendre": "On cherche l'AIRE du plancher : 4 m × 4 m.",
+      "organiser": "Aire d'un rectangle = longueur × largeur.",
+      "resoudre": "A = 4 × 4 = 16 m².",
+      "verifier": "Les unités sont en m² (surface), ce qui confirme qu'on a calculé une aire et non un périmètre."
+    },
+    "reponse": "L'aire est de 16 m²."
+  },
+  {
+    "id": "perim-008",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Un carreau carré a un côté de 10 cm. Quelle est son aire ?",
+    "vocabulaire": [
+      {
+        "terme": "aire d'un carré",
+        "sens": "Aire = côté × côté."
+      }
+    ],
+    "indice": "Comment calcule-t-on l'aire d'un carré ?",
+    "demarche": {
+      "comprendre": "On cherche l'aire d'un carré de côté 10 cm.",
+      "organiser": "Aire d'un carré = côté × côté.",
+      "resoudre": "A = 10 × 10 = 100 cm².",
+      "verifier": "Le résultat est en cm² (surface), ce qui est cohérent avec une aire."
+    },
+    "reponse": "L'aire est de 100 cm²."
+  },
+  {
+    "id": "perim-009",
+    "theme": "perimetre-et-aire",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Nathan veut installer une bordure tout autour d'un jardin rectangulaire de 15 m sur 9 m. Cela coûte 3 $ le mètre. Quel sera le coût total ?",
+    "vocabulaire": [
+      {
+        "terme": "tout autour",
+        "sens": "Indique le PÉRIMÈTRE (le contour), pas l'aire."
+      },
+      {
+        "terme": "périmètre",
+        "sens": "P = 2 × (longueur + largeur) pour un rectangle."
+      }
+    ],
+    "indice": "« Tout autour » désigne le périmètre ou l'aire ?",
+    "demarche": {
+      "comprendre": "On cherche le coût pour entourer le jardin. « Tout autour » → périmètre. Données : 15 m × 9 m, 3 $/m.",
+      "organiser": "1) calculer le périmètre; 2) multiplier par le coût au mètre.",
+      "resoudre": "P = 2 × (15 + 9) = 2 × 24 = 48 m. Coût = 48 × 3 = 144 $.",
+      "verifier": "Somme des 4 côtés : 15+9+15+9 = 48 m. 48 × 3 = 144 $."
+    },
+    "reponse": "Le coût total sera de 144 $."
+  },
+  {
+    "id": "perim-010",
+    "theme": "perimetre-et-aire",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Emma veut installer une guirlande lumineuse tout autour d'un jardin rectangulaire de 12 m sur 5 m. Cela coûte 3 $ le mètre. Quel sera le coût total ?",
+    "vocabulaire": [
+      {
+        "terme": "tout autour",
+        "sens": "Indique le PÉRIMÈTRE (le contour), pas l'aire."
+      },
+      {
+        "terme": "périmètre",
+        "sens": "P = 2 × (longueur + largeur) pour un rectangle."
+      }
+    ],
+    "indice": "« Tout autour » désigne le périmètre ou l'aire ?",
+    "demarche": {
+      "comprendre": "On cherche le coût pour entourer le jardin. « Tout autour » → périmètre. Données : 12 m × 5 m, 3 $/m.",
+      "organiser": "1) calculer le périmètre; 2) multiplier par le coût au mètre.",
+      "resoudre": "P = 2 × (12 + 5) = 2 × 17 = 34 m. Coût = 34 × 3 = 102 $.",
+      "verifier": "Somme des 4 côtés : 12+5+12+5 = 34 m. 34 × 3 = 102 $."
+    },
+    "reponse": "Le coût total sera de 102 $."
+  },
+  {
+    "id": "perim-011",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Liam veut installer une clôture tout autour d'un jardin rectangulaire de 5 m sur 3 m. Cela coûte 8 $ le mètre. Quel sera le coût total ?",
+    "vocabulaire": [
+      {
+        "terme": "tout autour",
+        "sens": "Indique le PÉRIMÈTRE (le contour), pas l'aire."
+      },
+      {
+        "terme": "périmètre",
+        "sens": "P = 2 × (longueur + largeur) pour un rectangle."
+      }
+    ],
+    "indice": "« Tout autour » désigne le périmètre ou l'aire ?",
+    "demarche": {
+      "comprendre": "On cherche le coût pour entourer le jardin. « Tout autour » → périmètre. Données : 5 m × 3 m, 8 $/m.",
+      "organiser": "1) calculer le périmètre; 2) multiplier par le coût au mètre.",
+      "resoudre": "P = 2 × (5 + 3) = 2 × 8 = 16 m. Coût = 16 × 8 = 128 $.",
+      "verifier": "Somme des 4 côtés : 5+3+5+3 = 16 m. 16 × 8 = 128 $."
+    },
+    "reponse": "Le coût total sera de 128 $."
+  },
+  {
+    "id": "perim-012",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Un panneau a la forme d'un triangle dont la base mesure 12 cm et la hauteur 3 cm. Quelle est son aire ?",
+    "vocabulaire": [
+      {
+        "terme": "base / hauteur",
+        "sens": "Dans un triangle, l'aire se calcule avec la base et la hauteur."
+      },
+      {
+        "terme": "aire d'un triangle",
+        "sens": "A = (base × hauteur) ÷ 2."
+      }
+    ],
+    "indice": "Quelle est la formule de l'aire d'un triangle ?",
+    "demarche": {
+      "comprendre": "On cherche l'aire d'un triangle. Base = 12 cm, hauteur = 3 cm.",
+      "organiser": "Appliquer la formule A = (base × hauteur) ÷ 2.",
+      "resoudre": "A = (12 × 3) ÷ 2 = 36 ÷ 2 = 18 cm².",
+      "verifier": "L'aire d'un triangle est la moitié de celle du rectangle 12 × 3 = 36 cm². La moitié donne bien 18 cm²."
+    },
+    "reponse": "L'aire est de 18 cm²."
+  },
+  {
+    "id": "perim-013",
+    "theme": "perimetre-et-aire",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Une salle rectangulaire mesure 10 m de longueur sur 5 m de largeur. Antoine doit en recouvrir le sol. Quelle est la surface (l'aire) du plancher à recouvrir ?",
+    "vocabulaire": [
+      {
+        "terme": "surface / aire",
+        "sens": "L'AIRE, c'est l'intérieur. A = longueur × largeur pour un rectangle. À ne pas confondre avec le périmètre."
+      },
+      {
+        "terme": "recouvrir le sol",
+        "sens": "On couvre l'intérieur : c'est donc une question d'aire."
+      }
+    ],
+    "indice": "Recouvrir le sol, c'est l'aire ou le périmètre ?",
+    "demarche": {
+      "comprendre": "On cherche l'AIRE du plancher : 10 m × 5 m.",
+      "organiser": "Aire d'un rectangle = longueur × largeur.",
+      "resoudre": "A = 10 × 5 = 50 m².",
+      "verifier": "Les unités sont en m² (surface), ce qui confirme qu'on a calculé une aire et non un périmètre."
+    },
+    "reponse": "L'aire est de 50 m²."
+  },
+  {
+    "id": "perim-014",
+    "theme": "perimetre-et-aire",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Un panneau a la forme d'un triangle dont la base mesure 8 cm et la hauteur 9 cm. Quelle est son aire ?",
+    "vocabulaire": [
+      {
+        "terme": "base / hauteur",
+        "sens": "Dans un triangle, l'aire se calcule avec la base et la hauteur."
+      },
+      {
+        "terme": "aire d'un triangle",
+        "sens": "A = (base × hauteur) ÷ 2."
+      }
+    ],
+    "indice": "Quelle est la formule de l'aire d'un triangle ?",
+    "demarche": {
+      "comprendre": "On cherche l'aire d'un triangle. Base = 8 cm, hauteur = 9 cm.",
+      "organiser": "Appliquer la formule A = (base × hauteur) ÷ 2.",
+      "resoudre": "A = (8 × 9) ÷ 2 = 72 ÷ 2 = 36 cm².",
+      "verifier": "L'aire d'un triangle est la moitié de celle du rectangle 8 × 9 = 72 cm². La moitié donne bien 36 cm²."
+    },
+    "reponse": "L'aire est de 36 cm²."
+  },
+  {
+    "id": "perim-015",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Un carreau carré a un côté de 5 cm. Quelle est son aire ?",
+    "vocabulaire": [
+      {
+        "terme": "aire d'un carré",
+        "sens": "Aire = côté × côté."
+      }
+    ],
+    "indice": "Comment calcule-t-on l'aire d'un carré ?",
+    "demarche": {
+      "comprendre": "On cherche l'aire d'un carré de côté 5 cm.",
+      "organiser": "Aire d'un carré = côté × côté.",
+      "resoudre": "A = 5 × 5 = 25 cm².",
+      "verifier": "Le résultat est en cm² (surface), ce qui est cohérent avec une aire."
+    },
+    "reponse": "L'aire est de 25 cm²."
+  },
+  {
+    "id": "perim-016",
+    "theme": "perimetre-et-aire",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Un carreau carré a un côté de 11 cm. Quelle est son aire ?",
+    "vocabulaire": [
+      {
+        "terme": "aire d'un carré",
+        "sens": "Aire = côté × côté."
+      }
+    ],
+    "indice": "Comment calcule-t-on l'aire d'un carré ?",
+    "demarche": {
+      "comprendre": "On cherche l'aire d'un carré de côté 11 cm.",
+      "organiser": "Aire d'un carré = côté × côté.",
+      "resoudre": "A = 11 × 11 = 121 cm².",
+      "verifier": "Le résultat est en cm² (surface), ce qui est cohérent avec une aire."
+    },
+    "reponse": "L'aire est de 121 cm²."
+  },
+  {
+    "id": "perim-017",
+    "theme": "perimetre-et-aire",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Olivia veut installer une guirlande lumineuse tout autour d'un jardin rectangulaire de 6 m sur 5 m. Cela coûte 5 $ le mètre. Quel sera le coût total ?",
+    "vocabulaire": [
+      {
+        "terme": "tout autour",
+        "sens": "Indique le PÉRIMÈTRE (le contour), pas l'aire."
+      },
+      {
+        "terme": "périmètre",
+        "sens": "P = 2 × (longueur + largeur) pour un rectangle."
+      }
+    ],
+    "indice": "« Tout autour » désigne le périmètre ou l'aire ?",
+    "demarche": {
+      "comprendre": "On cherche le coût pour entourer le jardin. « Tout autour » → périmètre. Données : 6 m × 5 m, 5 $/m.",
+      "organiser": "1) calculer le périmètre; 2) multiplier par le coût au mètre.",
+      "resoudre": "P = 2 × (6 + 5) = 2 × 11 = 22 m. Coût = 22 × 5 = 110 $.",
+      "verifier": "Somme des 4 côtés : 6+5+6+5 = 22 m. 22 × 5 = 110 $."
+    },
+    "reponse": "Le coût total sera de 110 $."
+  },
+  {
+    "id": "perim-018",
+    "theme": "perimetre-et-aire",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Une nappe carrée a un côté de 15 cm. Quel est son périmètre ?",
+    "vocabulaire": [
+      {
+        "terme": "carré",
+        "sens": "Un carré a 4 côtés égaux. Périmètre = 4 × côté."
+      }
+    ],
+    "indice": "Combien un carré a-t-il de côtés, et sont-ils égaux ?",
+    "demarche": {
+      "comprendre": "On cherche le périmètre d'un carré de côté 15 cm.",
+      "organiser": "Périmètre d'un carré = 4 × côté.",
+      "resoudre": "P = 4 × 15 = 60 cm.",
+      "verifier": "15+15+15+15 = 60 cm."
+    },
+    "reponse": "Le périmètre est de 60 cm."
+  },
+  {
+    "id": "ent-001",
+    "theme": "nombres-entiers",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "À 6 h, la température était de -1 °C. Pendant la journée, elle monte de 4 °C. Quelle est la nouvelle température ?",
+    "vocabulaire": [
+      {
+        "terme": "nombre négatif",
+        "sens": "-1 °C est sous zéro. Les températures sous zéro sont des nombres négatifs."
+      },
+      {
+        "terme": "monte",
+        "sens": "« monte » = addition; « baisse » = soustraction."
+      }
+    ],
+    "indice": "Pars de -1 et ajoute 4.",
+    "demarche": {
+      "comprendre": "Température de départ : -1 °C. Elle monte de 4 °C. On cherche la température finale.",
+      "organiser": "« monte » indique une addition.",
+      "resoudre": "-1 + 4 = 3.",
+      "verifier": "Une hausse rend le nombre plus grand, une baisse le rend plus petit. Ici la température passe à 3 °C, ce qui est cohérent."
+    },
+    "reponse": "La nouvelle température est de 3 °C."
+  },
+  {
+    "id": "ent-002",
+    "theme": "nombres-entiers",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un jour d'hiver, la température la plus basse a été de -18 °C et la plus haute de 9 °C. Quelle est l'étendue (l'écart) entre ces deux températures ?",
+    "vocabulaire": [
+      {
+        "terme": "étendue / écart",
+        "sens": "La différence entre la plus grande et la plus petite valeur."
+      }
+    ],
+    "indice": "Soustrais la plus petite valeur de la plus grande : 9 − (-18).",
+    "demarche": {
+      "comprendre": "On cherche l'écart entre 9 °C et -18 °C.",
+      "organiser": "Étendue = valeur la plus grande − valeur la plus petite.",
+      "resoudre": "9 − (-18) = 9 + 18 = 27.",
+      "verifier": "Soustraire un nombre négatif revient à additionner. L'écart 27 °C est positif, ce qui est normal pour une étendue."
+    },
+    "reponse": "L'étendue est de 27 °C."
+  },
+  {
+    "id": "ent-003",
+    "theme": "nombres-entiers",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un jour d'hiver, la température la plus basse a été de -4 °C et la plus haute de 8 °C. Quelle est l'étendue (l'écart) entre ces deux températures ?",
+    "vocabulaire": [
+      {
+        "terme": "étendue / écart",
+        "sens": "La différence entre la plus grande et la plus petite valeur."
+      }
+    ],
+    "indice": "Soustrais la plus petite valeur de la plus grande : 8 − (-4).",
+    "demarche": {
+      "comprendre": "On cherche l'écart entre 8 °C et -4 °C.",
+      "organiser": "Étendue = valeur la plus grande − valeur la plus petite.",
+      "resoudre": "8 − (-4) = 8 + 4 = 12.",
+      "verifier": "Soustraire un nombre négatif revient à additionner. L'écart 12 °C est positif, ce qui est normal pour une étendue."
+    },
+    "reponse": "L'étendue est de 12 °C."
+  },
+  {
+    "id": "ent-004",
+    "theme": "nombres-entiers",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -27 m (sous le niveau de la mer). Il remonte de 26 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -27 et ajoute 26 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -27 m. Il remonte de 26 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-27 + 26 = -1.",
+      "verifier": "Il reste sous la surface, à -1 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -1 m."
+  },
+  {
+    "id": "ent-005",
+    "theme": "nombres-entiers",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "À 6 h, la température était de -2 °C. Pendant la journée, elle monte de 12 °C. Quelle est la nouvelle température ?",
+    "vocabulaire": [
+      {
+        "terme": "nombre négatif",
+        "sens": "-2 °C est sous zéro. Les températures sous zéro sont des nombres négatifs."
+      },
+      {
+        "terme": "monte",
+        "sens": "« monte » = addition; « baisse » = soustraction."
+      }
+    ],
+    "indice": "Pars de -2 et ajoute 12.",
+    "demarche": {
+      "comprendre": "Température de départ : -2 °C. Elle monte de 12 °C. On cherche la température finale.",
+      "organiser": "« monte » indique une addition.",
+      "resoudre": "-2 + 12 = 10.",
+      "verifier": "Une hausse rend le nombre plus grand, une baisse le rend plus petit. Ici la température passe à 10 °C, ce qui est cohérent."
+    },
+    "reponse": "La nouvelle température est de 10 °C."
+  },
+  {
+    "id": "ent-006",
+    "theme": "nombres-entiers",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un jour d'hiver, la température la plus basse a été de -13 °C et la plus haute de 6 °C. Quelle est l'étendue (l'écart) entre ces deux températures ?",
+    "vocabulaire": [
+      {
+        "terme": "étendue / écart",
+        "sens": "La différence entre la plus grande et la plus petite valeur."
+      }
+    ],
+    "indice": "Soustrais la plus petite valeur de la plus grande : 6 − (-13).",
+    "demarche": {
+      "comprendre": "On cherche l'écart entre 6 °C et -13 °C.",
+      "organiser": "Étendue = valeur la plus grande − valeur la plus petite.",
+      "resoudre": "6 − (-13) = 6 + 13 = 19.",
+      "verifier": "Soustraire un nombre négatif revient à additionner. L'écart 19 °C est positif, ce qui est normal pour une étendue."
+    },
+    "reponse": "L'étendue est de 19 °C."
+  },
+  {
+    "id": "ent-007",
+    "theme": "nombres-entiers",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -17 m (sous le niveau de la mer). Il remonte de 17 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -17 et ajoute 17 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -17 m. Il remonte de 17 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-17 + 17 = 0.",
+      "verifier": "Le résultat 0 m a du sens."
+    },
+    "reponse": "Il se trouve à 0 m."
+  },
+  {
+    "id": "ent-008",
+    "theme": "nombres-entiers",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -6 m (sous le niveau de la mer). Il remonte de 4 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -6 et ajoute 4 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -6 m. Il remonte de 4 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-6 + 4 = -2.",
+      "verifier": "Il reste sous la surface, à -2 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -2 m."
+  },
+  {
+    "id": "ent-009",
+    "theme": "nombres-entiers",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -17 m (sous le niveau de la mer). Il remonte de 13 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -17 et ajoute 13 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -17 m. Il remonte de 13 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-17 + 13 = -4.",
+      "verifier": "Il reste sous la surface, à -4 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -4 m."
+  },
+  {
+    "id": "ent-010",
+    "theme": "nombres-entiers",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -28 m (sous le niveau de la mer). Il remonte de 4 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -28 et ajoute 4 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -28 m. Il remonte de 4 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-28 + 4 = -24.",
+      "verifier": "Il reste sous la surface, à -24 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -24 m."
+  },
+  {
+    "id": "ent-011",
+    "theme": "nombres-entiers",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "À 6 h, la température était de -5 °C. Pendant la journée, elle monte de 9 °C. Quelle est la nouvelle température ?",
+    "vocabulaire": [
+      {
+        "terme": "nombre négatif",
+        "sens": "-5 °C est sous zéro. Les températures sous zéro sont des nombres négatifs."
+      },
+      {
+        "terme": "monte",
+        "sens": "« monte » = addition; « baisse » = soustraction."
+      }
+    ],
+    "indice": "Pars de -5 et ajoute 9.",
+    "demarche": {
+      "comprendre": "Température de départ : -5 °C. Elle monte de 9 °C. On cherche la température finale.",
+      "organiser": "« monte » indique une addition.",
+      "resoudre": "-5 + 9 = 4.",
+      "verifier": "Une hausse rend le nombre plus grand, une baisse le rend plus petit. Ici la température passe à 4 °C, ce qui est cohérent."
+    },
+    "reponse": "La nouvelle température est de 4 °C."
+  },
+  {
+    "id": "ent-012",
+    "theme": "nombres-entiers",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -35 m (sous le niveau de la mer). Il remonte de 2 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -35 et ajoute 2 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -35 m. Il remonte de 2 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-35 + 2 = -33.",
+      "verifier": "Il reste sous la surface, à -33 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -33 m."
+  },
+  {
+    "id": "ent-013",
+    "theme": "nombres-entiers",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -10 m (sous le niveau de la mer). Il remonte de 3 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -10 et ajoute 3 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -10 m. Il remonte de 3 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-10 + 3 = -7.",
+      "verifier": "Il reste sous la surface, à -7 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -7 m."
+  },
+  {
+    "id": "ent-014",
+    "theme": "nombres-entiers",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -35 m (sous le niveau de la mer). Il remonte de 13 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -35 et ajoute 13 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -35 m. Il remonte de 13 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-35 + 13 = -22.",
+      "verifier": "Il reste sous la surface, à -22 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -22 m."
+  },
+  {
+    "id": "ent-015",
+    "theme": "nombres-entiers",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -10 m (sous le niveau de la mer). Il remonte de 8 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -10 et ajoute 8 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -10 m. Il remonte de 8 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-10 + 8 = -2.",
+      "verifier": "Il reste sous la surface, à -2 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -2 m."
+  },
+  {
+    "id": "ent-016",
+    "theme": "nombres-entiers",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Un plongeur se trouve à -10 m (sous le niveau de la mer). Il remonte de 4 m. À quelle profondeur se trouve-t-il maintenant ?",
+    "vocabulaire": [
+      {
+        "terme": "sous le niveau de la mer",
+        "sens": "Représenté par un nombre négatif."
+      },
+      {
+        "terme": "remonter",
+        "sens": "Aller vers le haut : on additionne."
+      }
+    ],
+    "indice": "Pars de -10 et ajoute 4 (il remonte).",
+    "demarche": {
+      "comprendre": "Position de départ : -10 m. Il remonte de 4 m.",
+      "organiser": "Remonter = additionner un nombre positif à un nombre négatif.",
+      "resoudre": "-10 + 4 = -6.",
+      "verifier": "Il reste sous la surface, à -6 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
+    },
+    "reponse": "Il se trouve à -6 m."
+  },
+  {
+    "id": "ent-017",
+    "theme": "nombres-entiers",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "À 6 h, la température était de -12 °C. Pendant la journée, elle baisse de 4 °C. Quelle est la nouvelle température ?",
+    "vocabulaire": [
+      {
+        "terme": "nombre négatif",
+        "sens": "-12 °C est sous zéro. Les températures sous zéro sont des nombres négatifs."
+      },
+      {
+        "terme": "baisse",
+        "sens": "« monte » = addition; « baisse » = soustraction."
+      }
+    ],
+    "indice": "Pars de -12 et enlève 4.",
+    "demarche": {
+      "comprendre": "Température de départ : -12 °C. Elle baisse de 4 °C. On cherche la température finale.",
+      "organiser": "« baisse » indique une soustraction.",
+      "resoudre": "-12 − 4 = -16.",
+      "verifier": "Une hausse rend le nombre plus grand, une baisse le rend plus petit. Ici la température passe à -16 °C, ce qui est cohérent."
+    },
+    "reponse": "La nouvelle température est de -16 °C."
+  },
+  {
+    "id": "prio-001",
+    "theme": "priorite-des-operations",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Olivia achète 5 cahiers à 7 $ chacun et 3 livres à 4 $ chacun. Combien Olivia paie-t-il en tout ?",
+    "vocabulaire": [
+      {
+        "terme": "chacun",
+        "sens": "Indique une multiplication (nombre × prix unitaire)."
+      },
+      {
+        "terme": "en tout",
+        "sens": "Indique l'addition des deux montants."
+      }
+    ],
+    "indice": "Calcule d'abord le coût des cahiers, puis celui des livres.",
+    "demarche": {
+      "comprendre": "On cherche le total payé. 5 cahiers à 7 $ et 3 livres à 4 $.",
+      "organiser": "Multiplier avant d'additionner (priorité des opérations) : 5 × 7 + 3 × 4.",
+      "resoudre": "5 × 7 = 35. 3 × 4 = 12. Total : 35 + 12 = 47 $.",
+      "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 47 $."
+    },
+    "reponse": "Olivia paie 47 $ en tout."
+  },
+  {
+    "id": "prio-002",
+    "theme": "priorite-des-operations",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Liam achète 3 cahiers à 8 $ chacun et 3 classeurs à 5 $ chacun. Combien Liam paie-t-il en tout ?",
+    "vocabulaire": [
+      {
+        "terme": "chacun",
+        "sens": "Indique une multiplication (nombre × prix unitaire)."
+      },
+      {
+        "terme": "en tout",
+        "sens": "Indique l'addition des deux montants."
+      }
+    ],
+    "indice": "Calcule d'abord le coût des cahiers, puis celui des classeurs.",
+    "demarche": {
+      "comprendre": "On cherche le total payé. 3 cahiers à 8 $ et 3 classeurs à 5 $.",
+      "organiser": "Multiplier avant d'additionner (priorité des opérations) : 3 × 8 + 3 × 5.",
+      "resoudre": "3 × 8 = 24. 3 × 5 = 15. Total : 24 + 15 = 39 $.",
+      "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 39 $."
+    },
+    "reponse": "Liam paie 39 $ en tout."
+  },
+  {
+    "id": "prio-003",
+    "theme": "priorite-des-operations",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : 6 + 5 × 7 − 4.",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer 6 + 5 × 7 − 4 en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, 6 + 5 × 7 − 4 = 37.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 37."
+    },
+    "reponse": "6 + 5 × 7 − 4 = 37."
+  },
+  {
+    "id": "prio-004",
+    "theme": "priorite-des-operations",
+    "difficulte": "difficile",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : (4 + 2) × (7 + 5).",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer (4 + 2) × (7 + 5) en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, (4 + 2) × (7 + 5) = 72.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 72."
+    },
+    "reponse": "(4 + 2) × (7 + 5) = 72."
+  },
+  {
+    "id": "prio-005",
+    "theme": "priorite-des-operations",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Béatrice achète 5 règles à 4 $ chacun et 3 marqueurs à 2 $ chacun. Combien Béatrice paie-t-il en tout ?",
+    "vocabulaire": [
+      {
+        "terme": "chacun",
+        "sens": "Indique une multiplication (nombre × prix unitaire)."
+      },
+      {
+        "terme": "en tout",
+        "sens": "Indique l'addition des deux montants."
+      }
+    ],
+    "indice": "Calcule d'abord le coût des règles, puis celui des marqueurs.",
+    "demarche": {
+      "comprendre": "On cherche le total payé. 5 règles à 4 $ et 3 marqueurs à 2 $.",
+      "organiser": "Multiplier avant d'additionner (priorité des opérations) : 5 × 4 + 3 × 2.",
+      "resoudre": "5 × 4 = 20. 3 × 2 = 6. Total : 20 + 6 = 26 $.",
+      "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 26 $."
+    },
+    "reponse": "Béatrice paie 26 $ en tout."
+  },
+  {
+    "id": "prio-006",
+    "theme": "priorite-des-operations",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Léa achète 3 crayons à 4 $ chacun et 3 livres à 9 $ chacun. Combien Léa paie-t-il en tout ?",
+    "vocabulaire": [
+      {
+        "terme": "chacun",
+        "sens": "Indique une multiplication (nombre × prix unitaire)."
+      },
+      {
+        "terme": "en tout",
+        "sens": "Indique l'addition des deux montants."
+      }
+    ],
+    "indice": "Calcule d'abord le coût des crayons, puis celui des livres.",
+    "demarche": {
+      "comprendre": "On cherche le total payé. 3 crayons à 4 $ et 3 livres à 9 $.",
+      "organiser": "Multiplier avant d'additionner (priorité des opérations) : 3 × 4 + 3 × 9.",
+      "resoudre": "3 × 4 = 12. 3 × 9 = 27. Total : 12 + 27 = 39 $.",
+      "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 39 $."
+    },
+    "reponse": "Léa paie 39 $ en tout."
+  },
+  {
+    "id": "prio-007",
+    "theme": "priorite-des-operations",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Noah achète 4 stylos à 9 $ chacun et 2 marqueurs à 2 $ chacun. Combien Noah paie-t-il en tout ?",
+    "vocabulaire": [
+      {
+        "terme": "chacun",
+        "sens": "Indique une multiplication (nombre × prix unitaire)."
+      },
+      {
+        "terme": "en tout",
+        "sens": "Indique l'addition des deux montants."
+      }
+    ],
+    "indice": "Calcule d'abord le coût des stylos, puis celui des marqueurs.",
+    "demarche": {
+      "comprendre": "On cherche le total payé. 4 stylos à 9 $ et 2 marqueurs à 2 $.",
+      "organiser": "Multiplier avant d'additionner (priorité des opérations) : 4 × 9 + 2 × 2.",
+      "resoudre": "4 × 9 = 36. 2 × 2 = 4. Total : 36 + 4 = 40 $.",
+      "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 40 $."
+    },
+    "reponse": "Noah paie 40 $ en tout."
+  },
+  {
+    "id": "prio-008",
+    "theme": "priorite-des-operations",
+    "difficulte": "difficile",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : 2 + 3 × 9.",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer 2 + 3 × 9 en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, 2 + 3 × 9 = 29.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 29."
+    },
+    "reponse": "2 + 3 × 9 = 29."
+  },
+  {
+    "id": "prio-009",
+    "theme": "priorite-des-operations",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : 45 ÷ 5 + 7.",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer 45 ÷ 5 + 7 en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, 45 ÷ 5 + 7 = 16.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 16."
+    },
+    "reponse": "45 ÷ 5 + 7 = 16."
+  },
+  {
+    "id": "prio-010",
+    "theme": "priorite-des-operations",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Édouard achète 5 règles à 5 $ chacun et 4 marqueurs à 5 $ chacun. Combien Édouard paie-t-il en tout ?",
+    "vocabulaire": [
+      {
+        "terme": "chacun",
+        "sens": "Indique une multiplication (nombre × prix unitaire)."
+      },
+      {
+        "terme": "en tout",
+        "sens": "Indique l'addition des deux montants."
+      }
+    ],
+    "indice": "Calcule d'abord le coût des règles, puis celui des marqueurs.",
+    "demarche": {
+      "comprendre": "On cherche le total payé. 5 règles à 5 $ et 4 marqueurs à 5 $.",
+      "organiser": "Multiplier avant d'additionner (priorité des opérations) : 5 × 5 + 4 × 5.",
+      "resoudre": "5 × 5 = 25. 4 × 5 = 20. Total : 25 + 20 = 45 $.",
+      "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 45 $."
+    },
+    "reponse": "Édouard paie 45 $ en tout."
+  },
+  {
+    "id": "prio-011",
+    "theme": "priorite-des-operations",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : 3 + 8 × 9.",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer 3 + 8 × 9 en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, 3 + 8 × 9 = 75.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 75."
+    },
+    "reponse": "3 + 8 × 9 = 75."
+  },
+  {
+    "id": "prio-012",
+    "theme": "priorite-des-operations",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Thomas achète 5 cahiers à 3 $ chacun et 3 marqueurs à 6 $ chacun. Combien Thomas paie-t-il en tout ?",
+    "vocabulaire": [
+      {
+        "terme": "chacun",
+        "sens": "Indique une multiplication (nombre × prix unitaire)."
+      },
+      {
+        "terme": "en tout",
+        "sens": "Indique l'addition des deux montants."
+      }
+    ],
+    "indice": "Calcule d'abord le coût des cahiers, puis celui des marqueurs.",
+    "demarche": {
+      "comprendre": "On cherche le total payé. 5 cahiers à 3 $ et 3 marqueurs à 6 $.",
+      "organiser": "Multiplier avant d'additionner (priorité des opérations) : 5 × 3 + 3 × 6.",
+      "resoudre": "5 × 3 = 15. 3 × 6 = 18. Total : 15 + 18 = 33 $.",
+      "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 33 $."
+    },
+    "reponse": "Thomas paie 33 $ en tout."
+  },
+  {
+    "id": "prio-013",
+    "theme": "priorite-des-operations",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Samuel achète 3 stylos à 6 $ chacun et 3 livres à 9 $ chacun. Combien Samuel paie-t-il en tout ?",
+    "vocabulaire": [
+      {
+        "terme": "chacun",
+        "sens": "Indique une multiplication (nombre × prix unitaire)."
+      },
+      {
+        "terme": "en tout",
+        "sens": "Indique l'addition des deux montants."
+      }
+    ],
+    "indice": "Calcule d'abord le coût des stylos, puis celui des livres.",
+    "demarche": {
+      "comprendre": "On cherche le total payé. 3 stylos à 6 $ et 3 livres à 9 $.",
+      "organiser": "Multiplier avant d'additionner (priorité des opérations) : 3 × 6 + 3 × 9.",
+      "resoudre": "3 × 6 = 18. 3 × 9 = 27. Total : 18 + 27 = 45 $.",
+      "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 45 $."
+    },
+    "reponse": "Samuel paie 45 $ en tout."
+  },
+  {
+    "id": "prio-014",
+    "theme": "priorite-des-operations",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : (9 + 4) × (5 + 3).",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer (9 + 4) × (5 + 3) en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, (9 + 4) × (5 + 3) = 104.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 104."
+    },
+    "reponse": "(9 + 4) × (5 + 3) = 104."
+  },
+  {
+    "id": "prio-015",
+    "theme": "priorite-des-operations",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : 8 × 7 − 8.",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer 8 × 7 − 8 en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, 8 × 7 − 8 = 48.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 48."
+    },
+    "reponse": "8 × 7 − 8 = 48."
+  },
+  {
+    "id": "prio-016",
+    "theme": "priorite-des-operations",
+    "difficulte": "difficile",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : 3 + 7 × 2 − 4.",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer 3 + 7 × 2 − 4 en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, 3 + 7 × 2 − 4 = 13.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 13."
+    },
+    "reponse": "3 + 7 × 2 − 4 = 13."
+  },
+  {
+    "id": "prio-017",
+    "theme": "priorite-des-operations",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Effectue le calcul suivant en respectant la priorité des opérations : 9 + 2 × 8 − 4.",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "sens": "Ordre : 1) parenthèses, 2) multiplications et divisions (de gauche à droite), 3) additions et soustractions (de gauche à droite)."
+      },
+      {
+        "terme": "parenthèses",
+        "sens": "Ce qui est entre parenthèses se calcule en premier."
+      }
+    ],
+    "indice": "Quelles opérations dois-tu faire en premier : les parenthèses ou l'addition ?",
+    "demarche": {
+      "comprendre": "On doit calculer 9 + 2 × 8 − 4 en respectant l'ordre des opérations.",
+      "organiser": "Appliquer la priorité : parenthèses, puis × et ÷, puis + et −.",
+      "resoudre": "En respectant l'ordre, 9 + 2 × 8 − 4 = 21.",
+      "verifier": "En refaisant le calcul étape par étape, on obtient bien 21."
+    },
+    "reponse": "9 + 2 × 8 − 4 = 21."
+  },
+  {
+    "id": "dec-001",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Félix achète deux articles à 2,68 $ et 5,59 $. Félix paie avec un billet de 20,00 $. Combien d'argent Félix doit-il recevoir en monnaie ?",
+    "vocabulaire": [
+      {
+        "terme": "monnaie à recevoir",
+        "sens": "Ce qu'on redonne : montant payé − coût total."
+      }
+    ],
+    "indice": "Additionne d'abord le coût des deux articles.",
+    "demarche": {
+      "comprendre": "On cherche la monnaie. Articles : 2,68 $ et 5,59 $. Payé : 20,00 $.",
+      "organiser": "1) additionner le coût des articles; 2) soustraire ce total du montant payé.",
+      "resoudre": "Total : 2,68 + 5,59 = 8,27 $. Monnaie : 20 − 8,27 = 11,73 $.",
+      "verifier": "8,27 + 11,73 = 20,00 $, soit le montant payé. La réponse est correcte."
+    },
+    "reponse": "Félix doit recevoir 11,73 $ en monnaie."
+  },
+  {
+    "id": "dec-002",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 60 billets, 10 % ont été vendus. Combien de billets cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "10 %, c'est 10 ÷ 100. Multiplie ensuite par 60.",
+    "demarche": {
+      "comprendre": "On cherche 10 % de 60 billets.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "10 % × 60 = (10 ÷ 100) × 60 = 0,10 × 60 = 6.",
+      "verifier": "6 sur 60, c'est bien 10 %."
+    },
+    "reponse": "Cela représente 6 billets."
+  },
+  {
+    "id": "dec-003",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 200 élèves, 25 % ont réussi l'examen. Combien d'élèves cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "25 %, c'est 25 ÷ 100. Multiplie ensuite par 200.",
+    "demarche": {
+      "comprendre": "On cherche 25 % de 200 élèves.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "25 % × 200 = (25 ÷ 100) × 200 = 0,25 × 200 = 50.",
+      "verifier": "50 sur 200, c'est bien 25 %."
+    },
+    "reponse": "Cela représente 50 élèves."
+  },
+  {
+    "id": "dec-004",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Une paire d'espadrilles coûte 50,00 $. Il est en solde à 50 % de rabais. Quel est le prix après le rabais ?",
+    "vocabulaire": [
+      {
+        "terme": "rabais",
+        "sens": "Une réduction du prix. On soustrait le rabais du prix de départ."
+      },
+      {
+        "terme": "50 % de rabais",
+        "sens": "On enlève 50 % du prix."
+      }
+    ],
+    "indice": "Calcule d'abord le montant du rabais : 50 % de 50,00 $.",
+    "demarche": {
+      "comprendre": "Prix de départ : 50,00 $. Rabais : 50 %. On cherche le prix final.",
+      "organiser": "1) calculer le montant du rabais; 2) le soustraire du prix de départ.",
+      "resoudre": "Rabais = 50 % × 50 = 25,00 $. Prix final = 50 − 25,00 = 25,00 $.",
+      "verifier": "Le prix final (25,00 $) est plus bas que le prix de départ (50,00 $), ce qui est normal avec un rabais."
+    },
+    "reponse": "Le prix après le rabais est de 25,00 $."
+  },
+  {
+    "id": "dec-005",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Béatrice achète deux articles à 6,20 $ et 1,45 $. Béatrice paie avec un billet de 100,00 $. Combien d'argent Béatrice doit-il recevoir en monnaie ?",
+    "vocabulaire": [
+      {
+        "terme": "monnaie à recevoir",
+        "sens": "Ce qu'on redonne : montant payé − coût total."
+      }
+    ],
+    "indice": "Additionne d'abord le coût des deux articles.",
+    "demarche": {
+      "comprendre": "On cherche la monnaie. Articles : 6,20 $ et 1,45 $. Payé : 100,00 $.",
+      "organiser": "1) additionner le coût des articles; 2) soustraire ce total du montant payé.",
+      "resoudre": "Total : 6,20 + 1,45 = 7,65 $. Monnaie : 100 − 7,65 = 92,35 $.",
+      "verifier": "7,65 + 92,35 = 100,00 $, soit le montant payé. La réponse est correcte."
+    },
+    "reponse": "Béatrice doit recevoir 92,35 $ en monnaie."
+  },
+  {
+    "id": "dec-006",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 20 billets, 50 % ont été vendus. Combien de billets cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "50 %, c'est 50 ÷ 100. Multiplie ensuite par 20.",
+    "demarche": {
+      "comprendre": "On cherche 50 % de 20 billets.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "50 % × 20 = (50 ÷ 100) × 20 = 0,50 × 20 = 10.",
+      "verifier": "10 sur 20, c'est bien 50 %."
+    },
+    "reponse": "Cela représente 10 billets."
+  },
+  {
+    "id": "dec-007",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 60 élèves, 75 % ont réussi l'examen. Combien d'élèves cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "75 %, c'est 75 ÷ 100. Multiplie ensuite par 60.",
+    "demarche": {
+      "comprendre": "On cherche 75 % de 60 élèves.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "75 % × 60 = (75 ÷ 100) × 60 = 0,75 × 60 = 45.",
+      "verifier": "45 sur 60, c'est bien 75 %."
+    },
+    "reponse": "Cela représente 45 élèves."
+  },
+  {
+    "id": "dec-008",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Thomas achète deux articles à 3,59 $ et 1,61 $. Thomas paie avec un billet de 20,00 $. Combien d'argent Thomas doit-il recevoir en monnaie ?",
+    "vocabulaire": [
+      {
+        "terme": "monnaie à recevoir",
+        "sens": "Ce qu'on redonne : montant payé − coût total."
+      }
+    ],
+    "indice": "Additionne d'abord le coût des deux articles.",
+    "demarche": {
+      "comprendre": "On cherche la monnaie. Articles : 3,59 $ et 1,61 $. Payé : 20,00 $.",
+      "organiser": "1) additionner le coût des articles; 2) soustraire ce total du montant payé.",
+      "resoudre": "Total : 3,59 + 1,61 = 5,20 $. Monnaie : 20 − 5,20 = 14,80 $.",
+      "verifier": "5,20 + 14,80 = 20,00 $, soit le montant payé. La réponse est correcte."
+    },
+    "reponse": "Thomas doit recevoir 14,80 $ en monnaie."
+  },
+  {
+    "id": "dec-009",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 80 billets, 5 % ont été vendus. Combien de billets cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "5 %, c'est 5 ÷ 100. Multiplie ensuite par 80.",
+    "demarche": {
+      "comprendre": "On cherche 5 % de 80 billets.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "5 % × 80 = (5 ÷ 100) × 80 = 0,05 × 80 = 4.",
+      "verifier": "4 sur 80, c'est bien 5 %."
+    },
+    "reponse": "Cela représente 4 billets."
+  },
+  {
+    "id": "dec-010",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Olivia achète deux articles à 5,16 $ et 2,19 $. Olivia paie avec un billet de 20,00 $. Combien d'argent Olivia doit-il recevoir en monnaie ?",
+    "vocabulaire": [
+      {
+        "terme": "monnaie à recevoir",
+        "sens": "Ce qu'on redonne : montant payé − coût total."
+      }
+    ],
+    "indice": "Additionne d'abord le coût des deux articles.",
+    "demarche": {
+      "comprendre": "On cherche la monnaie. Articles : 5,16 $ et 2,19 $. Payé : 20,00 $.",
+      "organiser": "1) additionner le coût des articles; 2) soustraire ce total du montant payé.",
+      "resoudre": "Total : 5,16 + 2,19 = 7,35 $. Monnaie : 20 − 7,35 = 12,65 $.",
+      "verifier": "7,35 + 12,65 = 20,00 $, soit le montant payé. La réponse est correcte."
+    },
+    "reponse": "Olivia doit recevoir 12,65 $ en monnaie."
+  },
+  {
+    "id": "dec-011",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 20 élèves, 25 % ont réussi l'examen. Combien d'élèves cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "25 %, c'est 25 ÷ 100. Multiplie ensuite par 20.",
+    "demarche": {
+      "comprendre": "On cherche 25 % de 20 élèves.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "25 % × 20 = (25 ÷ 100) × 20 = 0,25 × 20 = 5.",
+      "verifier": "5 sur 20, c'est bien 25 %."
+    },
+    "reponse": "Cela représente 5 élèves."
+  },
+  {
+    "id": "dec-012",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 60 pommes, 40 % sont mûres. Combien de pommes cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "40 %, c'est 40 ÷ 100. Multiplie ensuite par 60.",
+    "demarche": {
+      "comprendre": "On cherche 40 % de 60 pommes.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "40 % × 60 = (40 ÷ 100) × 60 = 0,40 × 60 = 24.",
+      "verifier": "24 sur 60, c'est bien 40 %."
+    },
+    "reponse": "Cela représente 24 pommes."
+  },
+  {
+    "id": "dec-013",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 100 pommes, 50 % sont mûres. Combien de pommes cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "50 %, c'est 50 ÷ 100. Multiplie ensuite par 100.",
+    "demarche": {
+      "comprendre": "On cherche 50 % de 100 pommes.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "50 % × 100 = (50 ÷ 100) × 100 = 0,50 × 100 = 50.",
+      "verifier": "50 sur 100, c'est bien 50 %."
+    },
+    "reponse": "Cela représente 50 pommes."
+  },
+  {
+    "id": "dec-014",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Dans un groupe de 200 élèves, 25 % ont réussi l'examen. Combien d'élèves cela représente-t-il ?",
+    "vocabulaire": [
+      {
+        "terme": "pourcentage (%)",
+        "sens": "« pour cent » : une part sur 100. 10 % = 10 sur 100."
+      }
+    ],
+    "indice": "25 %, c'est 25 ÷ 100. Multiplie ensuite par 200.",
+    "demarche": {
+      "comprendre": "On cherche 25 % de 200 élèves.",
+      "organiser": "Pour trouver un pourcentage d'une quantité : (pourcentage ÷ 100) × quantité.",
+      "resoudre": "25 % × 200 = (25 ÷ 100) × 200 = 0,25 × 200 = 50.",
+      "verifier": "50 sur 200, c'est bien 25 %."
+    },
+    "reponse": "Cela représente 50 élèves."
+  },
+  {
+    "id": "dec-015",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Un chandail coûte 20,00 $. Il est en solde à 10 % de rabais. Quel est le prix après le rabais ?",
+    "vocabulaire": [
+      {
+        "terme": "rabais",
+        "sens": "Une réduction du prix. On soustrait le rabais du prix de départ."
+      },
+      {
+        "terme": "10 % de rabais",
+        "sens": "On enlève 10 % du prix."
+      }
+    ],
+    "indice": "Calcule d'abord le montant du rabais : 10 % de 20,00 $.",
+    "demarche": {
+      "comprendre": "Prix de départ : 20,00 $. Rabais : 10 %. On cherche le prix final.",
+      "organiser": "1) calculer le montant du rabais; 2) le soustraire du prix de départ.",
+      "resoudre": "Rabais = 10 % × 20 = 2,00 $. Prix final = 20 − 2,00 = 18,00 $.",
+      "verifier": "Le prix final (18,00 $) est plus bas que le prix de départ (20,00 $), ce qui est normal avec un rabais."
+    },
+    "reponse": "Le prix après le rabais est de 18,00 $."
+  },
+  {
+    "id": "dec-016",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Béatrice achète deux articles à 5,09 $ et 2,23 $. Béatrice paie avec un billet de 50,00 $. Combien d'argent Béatrice doit-il recevoir en monnaie ?",
+    "vocabulaire": [
+      {
+        "terme": "monnaie à recevoir",
+        "sens": "Ce qu'on redonne : montant payé − coût total."
+      }
+    ],
+    "indice": "Additionne d'abord le coût des deux articles.",
+    "demarche": {
+      "comprendre": "On cherche la monnaie. Articles : 5,09 $ et 2,23 $. Payé : 50,00 $.",
+      "organiser": "1) additionner le coût des articles; 2) soustraire ce total du montant payé.",
+      "resoudre": "Total : 5,09 + 2,23 = 7,32 $. Monnaie : 50 − 7,32 = 42,68 $.",
+      "verifier": "7,32 + 42,68 = 50,00 $, soit le montant payé. La réponse est correcte."
+    },
+    "reponse": "Béatrice doit recevoir 42,68 $ en monnaie."
+  },
+  {
+    "id": "dec-017",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "Un jeu vidéo coûte 25,00 $. Il est en solde à 50 % de rabais. Quel est le prix après le rabais ?",
+    "vocabulaire": [
+      {
+        "terme": "rabais",
+        "sens": "Une réduction du prix. On soustrait le rabais du prix de départ."
+      },
+      {
+        "terme": "50 % de rabais",
+        "sens": "On enlève 50 % du prix."
+      }
+    ],
+    "indice": "Calcule d'abord le montant du rabais : 50 % de 25,00 $.",
+    "demarche": {
+      "comprendre": "Prix de départ : 25,00 $. Rabais : 50 %. On cherche le prix final.",
+      "organiser": "1) calculer le montant du rabais; 2) le soustraire du prix de départ.",
+      "resoudre": "Rabais = 50 % × 25 = 12,50 $. Prix final = 25 − 12,50 = 12,50 $.",
+      "verifier": "Le prix final (12,50 $) est plus bas que le prix de départ (25,00 $), ce qui est normal avec un rabais."
+    },
+    "reponse": "Le prix après le rabais est de 12,50 $."
+  },
+  {
+    "id": "stat-001",
+    "theme": "statistique",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 9, 9, 9, 5, 4. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 9, 9, 9, 5, 4.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 9 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 9 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 9."
+  },
+  {
+    "id": "stat-002",
+    "theme": "statistique",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 6, 6, 1, 3, 6. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 6, 6, 1, 3, 6.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 6 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 6 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 6."
+  },
+  {
+    "id": "stat-003",
+    "theme": "statistique",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Voici les notes d'examen (sur 30) : 21, 17, 16, 17. Quelle est la moyenne ?",
+    "vocabulaire": [
+      {
+        "terme": "moyenne",
+        "sens": "On additionne toutes les valeurs, puis on divise par le nombre de valeurs."
+      }
+    ],
+    "indice": "Additionne les 4 valeurs, puis divise par 4.",
+    "demarche": {
+      "comprendre": "On cherche la moyenne de 4 valeurs : 21, 17, 16, 17.",
+      "organiser": "Moyenne = (somme des valeurs) ÷ (nombre de valeurs).",
+      "resoudre": "Somme = 21 + 17 + 16 + 17 = 71. Moyenne = 71 ÷ 4 = 17,8.",
+      "verifier": "La moyenne (17,8) se situe entre la plus petite (16) et la plus grande (21) valeur, ce qui est toujours le cas."
+    },
+    "reponse": "La moyenne est de 17,8."
+  },
+  {
+    "id": "stat-004",
+    "theme": "statistique",
+    "difficulte": "difficile",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 3, 3, 3, 5, 3. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 3, 3, 3, 5, 3.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 3 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 3 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 3."
+  },
+  {
+    "id": "stat-005",
+    "theme": "statistique",
+    "difficulte": "facile",
+    "competence": "C1",
+    "enonce": "On a relevé ces valeurs : 4, 21, 15, 24, 13. Quelle est l'étendue de cette série de données ?",
+    "vocabulaire": [
+      {
+        "terme": "étendue",
+        "sens": "La différence entre la plus grande et la plus petite valeur."
+      }
+    ],
+    "indice": "Repère la plus grande et la plus petite valeur.",
+    "demarche": {
+      "comprendre": "On cherche l'étendue de la série : 4, 21, 15, 24, 13.",
+      "organiser": "Étendue = valeur maximale − valeur minimale.",
+      "resoudre": "Maximum = 24, minimum = 4. Étendue = 24 − 4 = 20.",
+      "verifier": "L'étendue est toujours un nombre positif ou nul, ce qui est le cas ici."
+    },
+    "reponse": "L'étendue est de 20."
+  },
+  {
+    "id": "stat-006",
+    "theme": "statistique",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Voici les notes d'examen (sur 30) : 14, 20, 17, 21, 16. Quelle est la moyenne ?",
+    "vocabulaire": [
+      {
+        "terme": "moyenne",
+        "sens": "On additionne toutes les valeurs, puis on divise par le nombre de valeurs."
+      }
+    ],
+    "indice": "Additionne les 5 valeurs, puis divise par 5.",
+    "demarche": {
+      "comprendre": "On cherche la moyenne de 5 valeurs : 14, 20, 17, 21, 16.",
+      "organiser": "Moyenne = (somme des valeurs) ÷ (nombre de valeurs).",
+      "resoudre": "Somme = 14 + 20 + 17 + 21 + 16 = 88. Moyenne = 88 ÷ 5 = 17,6.",
+      "verifier": "La moyenne (17,6) se situe entre la plus petite (14) et la plus grande (21) valeur, ce qui est toujours le cas."
+    },
+    "reponse": "La moyenne est de 17,6."
+  },
+  {
+    "id": "stat-007",
+    "theme": "statistique",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Voici les buts marqués par match : 10, 11, 15, 9. Quelle est la moyenne ?",
+    "vocabulaire": [
+      {
+        "terme": "moyenne",
+        "sens": "On additionne toutes les valeurs, puis on divise par le nombre de valeurs."
+      }
+    ],
+    "indice": "Additionne les 4 valeurs, puis divise par 4.",
+    "demarche": {
+      "comprendre": "On cherche la moyenne de 4 valeurs : 10, 11, 15, 9.",
+      "organiser": "Moyenne = (somme des valeurs) ÷ (nombre de valeurs).",
+      "resoudre": "Somme = 10 + 11 + 15 + 9 = 45. Moyenne = 45 ÷ 4 = 11,2.",
+      "verifier": "La moyenne (11,2) se situe entre la plus petite (9) et la plus grande (15) valeur, ce qui est toujours le cas."
+    },
+    "reponse": "La moyenne est de 11,2."
+  },
+  {
+    "id": "stat-008",
+    "theme": "statistique",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Voici les buts marqués par match : 13, 11, 18, 12, 16. Quelle est la moyenne ?",
+    "vocabulaire": [
+      {
+        "terme": "moyenne",
+        "sens": "On additionne toutes les valeurs, puis on divise par le nombre de valeurs."
+      }
+    ],
+    "indice": "Additionne les 5 valeurs, puis divise par 5.",
+    "demarche": {
+      "comprendre": "On cherche la moyenne de 5 valeurs : 13, 11, 18, 12, 16.",
+      "organiser": "Moyenne = (somme des valeurs) ÷ (nombre de valeurs).",
+      "resoudre": "Somme = 13 + 11 + 18 + 12 + 16 = 70. Moyenne = 70 ÷ 5 = 14.",
+      "verifier": "La moyenne (14) se situe entre la plus petite (11) et la plus grande (18) valeur, ce qui est toujours le cas."
+    },
+    "reponse": "La moyenne est de 14."
+  },
+  {
+    "id": "stat-009",
+    "theme": "statistique",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 5, 3, 3, 3, 3. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 5, 3, 3, 3, 3.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 3 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 3 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 3."
+  },
+  {
+    "id": "stat-010",
+    "theme": "statistique",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Voici les buts marqués par match : 9, 8, 8, 10, 13, 9. Quelle est la moyenne ?",
+    "vocabulaire": [
+      {
+        "terme": "moyenne",
+        "sens": "On additionne toutes les valeurs, puis on divise par le nombre de valeurs."
+      }
+    ],
+    "indice": "Additionne les 6 valeurs, puis divise par 6.",
+    "demarche": {
+      "comprendre": "On cherche la moyenne de 6 valeurs : 9, 8, 8, 10, 13, 9.",
+      "organiser": "Moyenne = (somme des valeurs) ÷ (nombre de valeurs).",
+      "resoudre": "Somme = 9 + 8 + 8 + 10 + 13 + 9 = 57. Moyenne = 57 ÷ 6 = 9,5.",
+      "verifier": "La moyenne (9,5) se situe entre la plus petite (8) et la plus grande (13) valeur, ce qui est toujours le cas."
+    },
+    "reponse": "La moyenne est de 9,5."
+  },
+  {
+    "id": "stat-011",
+    "theme": "statistique",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 9, 1, 1, 1, 1. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 9, 1, 1, 1, 1.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 1 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 1 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 1."
+  },
+  {
+    "id": "stat-012",
+    "theme": "statistique",
+    "difficulte": "difficile",
+    "competence": "C1",
+    "enonce": "Voici les températures de la semaine (°C) : 11, 11, 4, 11, 4. Quelle est la moyenne ?",
+    "vocabulaire": [
+      {
+        "terme": "moyenne",
+        "sens": "On additionne toutes les valeurs, puis on divise par le nombre de valeurs."
+      }
+    ],
+    "indice": "Additionne les 5 valeurs, puis divise par 5.",
+    "demarche": {
+      "comprendre": "On cherche la moyenne de 5 valeurs : 11, 11, 4, 11, 4.",
+      "organiser": "Moyenne = (somme des valeurs) ÷ (nombre de valeurs).",
+      "resoudre": "Somme = 11 + 11 + 4 + 11 + 4 = 41. Moyenne = 41 ÷ 5 = 8,2.",
+      "verifier": "La moyenne (8,2) se situe entre la plus petite (4) et la plus grande (11) valeur, ce qui est toujours le cas."
+    },
+    "reponse": "La moyenne est de 8,2."
+  },
+  {
+    "id": "stat-013",
+    "theme": "statistique",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 5, 5, 5, 5, 2. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 5, 5, 5, 5, 2.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 5 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 5 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 5."
+  },
+  {
+    "id": "stat-014",
+    "theme": "statistique",
+    "difficulte": "moyen",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 2, 8, 8, 7, 8. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 2, 8, 8, 7, 8.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 8 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 8 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 8."
+  },
+  {
+    "id": "stat-015",
+    "theme": "statistique",
+    "difficulte": "moyen",
+    "competence": "C1",
+    "enonce": "Voici les notes d'examen (sur 30) : 10, 9, 9, 7, 5, 12. Quelle est la moyenne ?",
+    "vocabulaire": [
+      {
+        "terme": "moyenne",
+        "sens": "On additionne toutes les valeurs, puis on divise par le nombre de valeurs."
+      }
+    ],
+    "indice": "Additionne les 6 valeurs, puis divise par 6.",
+    "demarche": {
+      "comprendre": "On cherche la moyenne de 6 valeurs : 10, 9, 9, 7, 5, 12.",
+      "organiser": "Moyenne = (somme des valeurs) ÷ (nombre de valeurs).",
+      "resoudre": "Somme = 10 + 9 + 9 + 7 + 5 + 12 = 52. Moyenne = 52 ÷ 6 = 8,7.",
+      "verifier": "La moyenne (8,7) se situe entre la plus petite (5) et la plus grande (12) valeur, ce qui est toujours le cas."
+    },
+    "reponse": "La moyenne est de 8,7."
+  },
+  {
+    "id": "stat-016",
+    "theme": "statistique",
+    "difficulte": "difficile",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 5, 2, 4, 4, 4. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 5, 2, 4, 4, 4.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 4 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 4 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 4."
+  },
+  {
+    "id": "stat-017",
+    "theme": "statistique",
+    "difficulte": "facile",
+    "competence": "C2",
+    "enonce": "Dans un sondage, on a obtenu ces réponses : 2, 2, 8, 2, 8. Quel est le mode de cette série ?",
+    "vocabulaire": [
+      {
+        "terme": "mode",
+        "sens": "La valeur qui revient le plus souvent dans une série de données."
+      }
+    ],
+    "indice": "Quelle valeur apparaît le plus souvent ?",
+    "demarche": {
+      "comprendre": "On cherche le mode (la valeur la plus fréquente) de : 2, 2, 8, 2, 8.",
+      "organiser": "Compter combien de fois chaque valeur apparaît, puis choisir la plus fréquente.",
+      "resoudre": "La valeur 2 apparaît plus souvent que les autres.",
+      "verifier": "En recomptant, 2 est bien la valeur la plus fréquente de la série."
+    },
+    "reponse": "Le mode est 2."
+  }
+]
