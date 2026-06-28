@@ -195,8 +195,18 @@ html, body {
 
 .step h3 {
     color: #667eea;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
     font-size: 1.1rem;
+}
+
+.step-hint {
+    color: #888;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin: 0.3rem 0 0.8rem 0;
+    border-left: 3px solid #ddd;
+    padding-left: 0.8rem;
+    line-height: 1.4;
 }
 
 .step p {
