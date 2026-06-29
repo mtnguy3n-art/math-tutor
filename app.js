@@ -27,6 +27,7 @@ function shuffleArray(array) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
+    console.log('Exercices mélangés pour le thème:', state.currentTheme, shuffled);
     return shuffled;
 }
 
