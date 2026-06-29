@@ -102,5 +102,113 @@
       "verifier": "Vérification : -3 + 3 = 0, puis 0 + 5 = 5. Donc -3 + 8 = 5. C'est logique : une augmentation de 8 °C à partir de -3 °C donne 5 °C au-dessus de zéro."
     },
     "reponse": "La température à midi était 5 °C."
+  },
+  {
+    "id": "lecon-nombres-decimaux-pourcentage-001",
+    "theme": "nombres-decimaux-et-pourcentage",
+    "titre": "Nombres décimaux et pourcentage",
+    "explication": "Un nombre décimal est un nombre qui a une partie entière et une partie décimale séparées par une virgule. Un pourcentage représente une partie sur 100. Par exemple, 50 % signifie 50 sur 100. Pour convertir un pourcentage en nombre décimal, on divise par 100. Ainsi, 25 % = 25 ÷ 100 = 0,25. Les pourcentages sont utiles pour comparer des parties d'un tout.",
+    "vocabulaire": [
+      {
+        "terme": "nombre décimal",
+        "definition": "Un nombre avec une virgule qui sépare la partie entière de la partie décimale. Exemple : 3,14 ou 0,5."
+      },
+      {
+        "terme": "pourcentage",
+        "definition": "Une proportion exprimée sur 100. Le symbole % signifie « sur 100 ». Exemple : 75 % = 75 sur 100."
+      },
+      {
+        "terme": "virgule décimale",
+        "definition": "Le symbole qui sépare la partie entière d'un nombre de sa partie décimale."
+      },
+      {
+        "terme": "dixième, centième, millième",
+        "definition": "Les positions après la virgule. 0,1 = un dixième; 0,01 = un centième; 0,001 = un millième."
+      },
+      {
+        "terme": "calculer un pourcentage",
+        "definition": "Trouver la valeur qui correspond à un certain pourcentage d'une quantité. Exemple : 20 % de 50 = 10."
+      }
+    ],
+    "exemple": {
+      "enonce": "Une boutique offre une réduction de 30 % sur un article qui coûte 60 $. Combien coûte l'article réduit ?",
+      "comprendre": "On cherche 30 % de 60 $. Cela signifie : quelle part de 60 $ représente 30 sur 100 ?",
+      "organiser": "Stratégie : 1) Calculer 30 % de 60. 2) Soustraire cette réduction du prix original.",
+      "resoudre": "30 % de 60 = 0,30 × 60 = 18. Le prix réduit = 60 - 18 = 42 $.",
+      "verifier": "Vérification : si la réduction est 18 $, alors 18 + 42 = 60 $, ce qui est correct. La réduction (30 %) est raisonnable."
+    },
+    "reponse": "L'article réduit coûte 42 $."
+  },
+  {
+    "id": "lecon-priorite-operations-001",
+    "theme": "priorite-des-operations",
+    "titre": "Priorité des opérations",
+    "explication": "La priorité des opérations est l'ordre dans lequel on effectue les calculs pour obtenir le bon résultat. On doit d'abord calculer ce qui est entre les parenthèses, ensuite les multiplications et divisions (de gauche à droite), et finalement les additions et soustractions (de gauche à droite). Un moyen de se souvenir : PEMDAS ou en français BODMAS. Ignorer cette priorité donnerait un résultat faux.",
+    "vocabulaire": [
+      {
+        "terme": "priorité des opérations",
+        "definition": "L'ordre établi pour faire les calculs : parenthèses, exposants, multiplication/division, addition/soustraction."
+      },
+      {
+        "terme": "parenthèses",
+        "definition": "Les symboles ( ) qui regroupent les opérations à faire en premier."
+      },
+      {
+        "terme": "multiplication et division",
+        "definition": "Elles ont la même priorité et se font avant l'addition et la soustraction."
+      },
+      {
+        "terme": "addition et soustraction",
+        "definition": "Elles ont la même priorité et se font après la multiplication et la division."
+      },
+      {
+        "terme": "de gauche à droite",
+        "definition": "Quand deux opérations ont la même priorité, on les fait dans l'ordre où elles apparaissent."
+      }
+    ],
+    "exemple": {
+      "enonce": "Calcule : 2 + 3 × 4",
+      "comprendre": "On a une addition et une multiplication. Il faut respecter la priorité des opérations.",
+      "organiser": "Stratégie : La multiplication a priorité sur l'addition. On fait d'abord 3 × 4, ensuite on ajoute 2.",
+      "resoudre": "Étape 1 : 3 × 4 = 12. Étape 2 : 2 + 12 = 14.",
+      "verifier": "Vérification : si on avait fait (2 + 3) × 4 = 5 × 4 = 20, ce serait faux. Notre réponse 14 respecte bien la priorité."
+    },
+    "reponse": "2 + 3 × 4 = 14"
+  },
+  {
+    "id": "lecon-statistique-001",
+    "theme": "statistique",
+    "titre": "Statistique",
+    "explication": "La statistique sert à collecter, organiser et analyser des données. Une donnée est une information ou une valeur mesurable. Quand on a beaucoup de données, on utilise des moyens pour les résumer : la moyenne (la somme divisée par le nombre de valeurs), la médiane (la valeur du milieu) et le mode (la valeur qui apparaît le plus souvent). Ces mesures aident à comprendre rapidement ce que représentent les données.",
+    "vocabulaire": [
+      {
+        "terme": "donnée",
+        "definition": "Une valeur ou une information collectée. Exemple : la note d'un élève, la température, le nombre de billes."
+      },
+      {
+        "terme": "moyenne",
+        "definition": "La somme de toutes les données divisée par le nombre de données. Elle représente la valeur « typique »."
+      },
+      {
+        "terme": "médiane",
+        "definition": "La valeur du milieu quand les données sont rangées en ordre. Elle partage les données en deux moitiés égales."
+      },
+      {
+        "terme": "mode",
+        "definition": "La donnée qui apparaît le plus souvent. Il peut y avoir plusieurs modes ou aucun."
+      },
+      {
+        "terme": "fréquence",
+        "definition": "Le nombre de fois qu'une valeur apparaît dans un ensemble de données."
+      }
+    ],
+    "exemple": {
+      "enonce": "Les notes de 5 élèves sont : 70, 85, 80, 85, 90. Quelle est la moyenne de ces notes ?",
+      "comprendre": "On cherche la moyenne, qui est la somme de toutes les notes divisée par le nombre d'élèves.",
+      "organiser": "Stratégie : 1) Additionner toutes les notes. 2) Diviser par le nombre d'élèves (5).",
+      "resoudre": "Somme : 70 + 85 + 80 + 85 + 90 = 410. Moyenne : 410 ÷ 5 = 82.",
+      "verifier": "Vérification : la moyenne 82 est entre la plus petite note (70) et la plus grande (90), ce qui est logique."
+    },
+    "reponse": "La moyenne des notes est 82."
   }
 ]
