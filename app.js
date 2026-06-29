@@ -161,6 +161,7 @@ function showLessonScreen() {
  * Afficher l'écran de pratique
  */
 function showPracticeScreen() {
+    console.log('📝 Début de showPracticeScreen() pour le thème:', state.currentTheme);
     hideAllScreens();
     document.getElementById('practiceScreen').classList.add('active');
     state.currentState = 'practice';
@@ -174,7 +175,9 @@ function showPracticeScreen() {
     
     // Filtrer les exercices pour le thème courant et les mélanger
     const filteredExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
+    console.log('Exercices trouvés avant mélange:', filteredExercises.length);
     state.themeExercises = shuffleArray(filteredExercises);
+    console.log('Exercices après mélange:', state.themeExercises.map(ex => ex.id));
     
     if (state.themeExercises.length === 0) {
         alert('Aucun exercice trouvé pour ce thème.');
