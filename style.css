@@ -37,23 +37,25 @@ html, body {
     padding: 2rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .header h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-    padding-left: 8rem;
+    flex: 1;
 }
 
 .header p {
     font-size: 0.9rem;
     opacity: 0.9;
+    margin-left: auto;
 }
 
 .back-button {
-    position: absolute;
-    top: 1.5rem;
-    left: 1.5rem;
+    position: static;
     background: rgba(255, 255, 255, 0.2);
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.4);
@@ -62,6 +64,8 @@ html, body {
     cursor: pointer;
     font-size: 1rem;
     transition: all 0.3s ease;
+    flex-shrink: 0;
+    white-space: nowrap;
 }
 
 .back-button:hover {
@@ -386,16 +390,18 @@ button {
 @media (max-width: 768px) {
     .header {
         padding: 1.5rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .header h1 {
         font-size: 1.5rem;
-        padding-left: 5.5rem;
+        flex: none;
+        margin-top: 0.5rem;
     }
 
     .back-button {
-        top: 1rem;
-        left: 1rem;
+        position: static;
         padding: 0.4rem 0.8rem;
         font-size: 0.9rem;
     }
