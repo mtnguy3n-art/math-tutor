@@ -247,10 +247,11 @@ function resetExerciseDisplay() {
     document.getElementById('optionsContainer').style.display = 'none';
     document.getElementById('feedbackMessage').style.display = 'none';
     
-    // Réinitialiser les boutons
+    // Réinitialiser les boutons - Toujours afficher indice et démarche
     document.getElementById('hintButton').style.display = 'block';
     document.getElementById('hintButton').textContent = 'Voir un indice';
-    document.getElementById('demoButton').style.display = 'none';
+    document.getElementById('demoButton').style.display = 'block';
+    document.getElementById('demoButton').textContent = 'Voir la démarche';
     document.getElementById('answerButton').style.display = 'none';
     document.getElementById('nextButton').style.display = 'none';
     
@@ -314,9 +315,10 @@ function selectOption(selectedIndex, correctIndex) {
         feedbackMessage.textContent = '✗ Mauvaise réponse. Essaie de voir la démarche ci-dessous.';
     }
     
-    // Afficher les boutons d'aide
+    // Afficher les boutons d'aide (toujours disponibles)
     document.getElementById('hintButton').style.display = 'block';
-    document.getElementById('hintButton').textContent = 'Voir la démarche';
+    document.getElementById('demoButton').style.display = 'block';
+    document.getElementById('demoButton').textContent = 'Voir la démarche';
 }
 
 /**
@@ -359,48 +361,45 @@ function setupEventListeners() {
 }
 
 /**
- * Afficher l'indice (et montrer le bouton pour la démarche)
+ * Afficher l'indice (toujours disponible)
  */
 function showHint() {
-    if (state.revealed.hint) return;
-    
     const exercise = state.themeExercises[state.currentExerciseIndex];
-    
-    // Si c'est un exercice avec options, afficher directement la démarche
-    if (exercise.options && exercise.options.length > 0) {
-        showDemo();
-        return;
-    }
-    
-    // Sinon, afficher l'indice comme avant
     alert('💡 Indice : ' + exercise.indice);
-    
-    state.revealed.hint = true;
-    
-    // Changer le bouton pour "Voir la démarche"
-    document.getElementById('hintButton').style.display = 'none';
-    document.getElementById('demoButton').style.display = 'block';
 }
 
 /**
- * Afficher la démarche complète (les quatre étapes)
+ * Afficher/masquer la démarche complète (les quatre étapes) - Toggle
  */
 function showDemo() {
-    if (state.revealed.demo) return;
-    
     const exercise = state.themeExercises[state.currentExerciseIndex];
+    const demoContainer = document.querySelector('.demarche-steps');
+    const comprendre = document.getElementById('comprendre');
+    const demoButton = document.getElementById('demoButton');
     
-    // Remplir les quatre étapes
-    document.getElementById('comprendre').textContent = exercise.demarche.comprendre;
-    document.getElementById('organiser').textContent = exercise.demarche.organiser;
-    document.getElementById('resoudre').textContent = exercise.demarche.resoudre;
-    document.getElementById('verifier').textContent = exercise.demarche.verifier;
+    // Toggle: if already revealed, hide it; otherwise show it
+    if (state.revealed.demo) {
+        // Masquer la démarche
+        comprendre.textContent = '';
+        document.getElementById('organiser').textContent = '';
+        document.getElementById('resoudre').textContent = '';
+        document.getElementById('verifier').textContent = '';
+        state.revealed.demo = false;
+        demoButton.textContent = 'Voir la démarche';
+    } else {
+        // Afficher la démarche
+        document.getElementById('comprendre').textContent = exercise.demarche.comprendre;
+        document.getElementById('organiser').textContent = exercise.demarche.organiser;
+        document.getElementById('resoudre').textContent = exercise.demarche.resoudre;
+        document.getElementById('verifier').textContent = exercise.demarche.verifier;
+        state.revealed.demo = true;
+        demoButton.textContent = 'Masquer la démarche';
+    }
     
-    state.revealed.demo = true;
-    
-    // Changer le bouton pour "Voir la réponse"
-    document.getElementById('demoButton').style.display = 'none';
-    document.getElementById('answerButton').style.display = 'block';
+    // Show answer button after demarche is revealed
+    if (state.revealed.demo && !state.revealed.answer) {
+        document.getElementById('answerButton').style.display = 'block';
+    }
 }
 
 /**
