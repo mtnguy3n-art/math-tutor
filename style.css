@@ -42,6 +42,7 @@ html, body {
 .header h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    padding-left: 5rem;
 }
 
 .header p {
@@ -373,10 +374,6 @@ button {
     transform: translateY(-1px);
 }
 
-#practiceTitle {
-    padding-left: 5rem;
-}
-
 #exerciseCounter {
     font-size: 0.9rem;
     margin-top: 0.5rem;
@@ -393,6 +390,7 @@ button {
 
     .header h1 {
         font-size: 1.5rem;
+        padding-left: 3.5rem;
     }
 
     .back-button {
@@ -423,7 +421,6 @@ button {
     }
 
     #practiceTitle {
-        padding-left: 0;
         margin-top: 1.5rem;
     }
 }
