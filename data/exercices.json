@@ -120,12 +120,12 @@
     },
     "reponse": "5/16 d'une pizza.",
     "options": [
-      "4",
-      "3",
-      "5",
-      "2"
+      "5/15 d'une pizza.",
+      "5/17 d'une pizza.",
+      "10/32 d'une pizza.",
+      "5/16 d'une pizza."
     ],
-    "correctOptionIndex": 2
+    "correctOptionIndex": 3
   },
   {
     "id": "frac-004",
@@ -216,12 +216,12 @@
     },
     "reponse": "7/8 de tarte.",
     "options": [
-      "7",
-      "5",
-      "3",
-      "6"
+      "7/7 de tarte.",
+      "7/8 de tarte.",
+      "14/16 de tarte.",
+      "6/8 de tarte."
     ],
-    "correctOptionIndex": 0
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-007",
@@ -248,12 +248,12 @@
     },
     "reponse": "5/8 d'une pizza.",
     "options": [
-      "4",
-      "5",
-      "2",
-      "3"
+      "5/8 d'une pizza.",
+      "10/16 d'une pizza.",
+      "5/7 d'une pizza.",
+      "5/9 d'une pizza."
     ],
-    "correctOptionIndex": 1
+    "correctOptionIndex": 0
   },
   {
     "id": "frac-008",
@@ -280,12 +280,12 @@
     },
     "reponse": "1/3 d'un litre d'eau.",
     "options": [
-      "3",
-      "1",
-      "2",
-      "8"
+      "1/2 d'un litre d'eau.",
+      "2/6 d'un litre d'eau.",
+      "1/3 d'un litre d'eau.",
+      "2/3 d'un litre d'eau."
     ],
-    "correctOptionIndex": 1
+    "correctOptionIndex": 2
   },
   {
     "id": "frac-009",
@@ -340,10 +340,10 @@
     },
     "reponse": "4/15 d'une pizza.",
     "options": [
-      "5",
-      "4",
-      "3",
-      "2"
+      "4/14 d'une pizza.",
+      "4/15 d'une pizza.",
+      "8/30 d'une pizza.",
+      "5/15 d'une pizza."
     ],
     "correctOptionIndex": 1
   },
@@ -460,12 +460,12 @@
     },
     "reponse": "4/15 d'un litre d'eau.",
     "options": [
-      "3",
-      "2",
-      "4",
-      "5"
+      "5/15 d'un litre d'eau.",
+      "4/15 d'un litre d'eau.",
+      "8/30 d'un litre d'eau.",
+      "4/14 d'un litre d'eau."
     ],
-    "correctOptionIndex": 2
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-015",
