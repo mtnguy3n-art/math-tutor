@@ -10,12 +10,25 @@ const state = {
     currentTheme: null,
     currentExerciseIndex: 0,
     currentState: 'home', // home, lesson, practice
+    themeExercises: [], // Exercices du thème courant (mélangés)
     revealed: {
         hint: false,
         demo: false,
         answer: false
     }
 };
+
+/**
+ * Mélanger un tableau (algorithme Fisher-Yates)
+ */
+function shuffleArray(array) {
+    const shuffled = [...array]; // Copier le tableau
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
 
 // Charger les données au démarrage
 document.addEventListener('DOMContentLoaded', async () => {
@@ -158,26 +171,26 @@ function showPracticeScreen() {
     state.revealed = { hint: false, demo: false, answer: false };
     state.currentExerciseIndex = 0;
     
-    // Filtrer les exercices pour le thème courant
-    const themeExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
+    // Filtrer les exercices pour le thème courant et les mélanger
+    const filteredExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
+    state.themeExercises = shuffleArray(filteredExercises);
     
-    if (themeExercises.length === 0) {
+    if (state.themeExercises.length === 0) {
         alert('Aucun exercice trouvé pour ce thème.');
         showHomeScreen();
         return;
     }
     
     // Afficher le premier exercice
-    displayExercise(themeExercises[state.currentExerciseIndex], 
+    displayExercise(state.themeExercises[state.currentExerciseIndex], 
                    state.currentExerciseIndex + 1, 
-                   themeExercises.length);
+                   state.themeExercises.length);
 }
 
 /**
  * Afficher un exercice spécifique
  */
 function displayExercise(exercise, index, total) {
-    const themeExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
     const lesson = state.lessons.find(l => l.theme === state.currentTheme);
     
     // Scroll vers le haut de la page
@@ -278,8 +291,7 @@ function setupEventListeners() {
 function showHint() {
     if (state.revealed.hint) return;
     
-    const themeExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
-    const exercise = themeExercises[state.currentExerciseIndex];
+    const exercise = state.themeExercises[state.currentExerciseIndex];
     
     // Afficher l'indice (simple alerte ou intégré)
     alert('💡 Indice : ' + exercise.indice);
@@ -297,8 +309,7 @@ function showHint() {
 function showDemo() {
     if (state.revealed.demo) return;
     
-    const themeExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
-    const exercise = themeExercises[state.currentExerciseIndex];
+    const exercise = state.themeExercises[state.currentExerciseIndex];
     
     // Remplir les quatre étapes
     document.getElementById('comprendre').textContent = exercise.demarche.comprendre;
@@ -319,8 +330,7 @@ function showDemo() {
 function showAnswer() {
     if (state.revealed.answer) return;
     
-    const themeExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
-    const exercise = themeExercises[state.currentExerciseIndex];
+    const exercise = state.themeExercises[state.currentExerciseIndex];
     
     // Afficher le conteneur de réponse et la réponse
     document.getElementById('reponse').textContent = exercise.reponse;
@@ -332,7 +342,7 @@ function showAnswer() {
     document.getElementById('answerButton').style.display = 'none';
     
     // Si c'est le dernier exercice, afficher "Retour", sinon "Prochain"
-    const themeExercisesCount = themeExercises.length;
+    const themeExercisesCount = state.themeExercises.length;
     if (state.currentExerciseIndex + 1 < themeExercisesCount) {
         document.getElementById('nextButton').textContent = 'Prochain exercice';
     } else {
@@ -346,14 +356,12 @@ function showAnswer() {
  * Aller à l'exercice suivant ou revenir au home
  */
 function nextExercise() {
-    const themeExercises = state.exercises.filter(ex => ex.theme === state.currentTheme);
-    
-    if (state.currentExerciseIndex + 1 < themeExercises.length) {
+    if (state.currentExerciseIndex + 1 < state.themeExercises.length) {
         // Il y a un prochain exercice
         state.currentExerciseIndex++;
-        displayExercise(themeExercises[state.currentExerciseIndex], 
+        displayExercise(state.themeExercises[state.currentExerciseIndex], 
                        state.currentExerciseIndex + 1, 
-                       themeExercises.length);
+                       state.themeExercises.length);
     } else {
         // C'était le dernier, retourner au home
         showHomeScreen();
