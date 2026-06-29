@@ -226,6 +226,11 @@ function displayExercise(exercise, index, total) {
     
     // Réinitialiser les boutons et conteneurs
     resetExerciseDisplay();
+    
+    // Afficher les options de réponse si disponibles
+    if (exercise.options && exercise.options.length > 0) {
+        displayMultipleChoice(exercise);
+    }
 }
 
 /**
@@ -239,6 +244,8 @@ function resetExerciseDisplay() {
     document.getElementById('verifier').textContent = '';
     document.getElementById('reponseContainer').style.display = 'none';
     document.getElementById('reponse').textContent = '';
+    document.getElementById('optionsContainer').style.display = 'none';
+    document.getElementById('feedbackMessage').style.display = 'none';
     
     // Réinitialiser les boutons
     document.getElementById('hintButton').style.display = 'block';
@@ -248,6 +255,68 @@ function resetExerciseDisplay() {
     document.getElementById('nextButton').style.display = 'none';
     
     state.revealed = { hint: false, demo: false, answer: false };
+}
+
+/**
+ * Afficher et gérer les options de réponse (choix multiples)
+ */
+function displayMultipleChoice(exercise) {
+    const optionsContainer = document.getElementById('optionsContainer');
+    const optionsList = document.getElementById('optionsList');
+    
+    optionsList.innerHTML = '';
+    optionsContainer.style.display = 'block';
+    
+    exercise.options.forEach((option, index) => {
+        const button = document.createElement('button');
+        button.className = 'option-button';
+        button.textContent = option;
+        button.addEventListener('click', () => selectOption(index, exercise.correctOptionIndex));
+        optionsList.appendChild(button);
+    });
+    
+    // Masquer les boutons principaux jusqu'à la réponse
+    document.getElementById('hintButton').style.display = 'none';
+}
+
+/**
+ * Gérer la sélection d'une réponse multiple
+ */
+function selectOption(selectedIndex, correctIndex) {
+    const optionButtons = document.querySelectorAll('.option-button');
+    const feedbackMessage = document.getElementById('feedbackMessage');
+    const isCorrect = selectedIndex === correctIndex;
+    
+    // Désactiver tous les boutons
+    optionButtons.forEach(btn => {
+        btn.style.pointerEvents = 'none';
+        btn.disabled = true;
+    });
+    
+    // Marquer le bouton sélectionné
+    optionButtons[selectedIndex].classList.add('selected');
+    
+    // Mettre en évidence la réponse correcte
+    optionButtons[correctIndex].classList.add('correct');
+    
+    // Si incorrect, marquer le bouton cliqué comme incorrect
+    if (!isCorrect) {
+        optionButtons[selectedIndex].classList.add('incorrect');
+    }
+    
+    // Afficher le message de retour
+    feedbackMessage.style.display = 'block';
+    if (isCorrect) {
+        feedbackMessage.className = 'feedback-message correct';
+        feedbackMessage.textContent = '✓ Bonne réponse ! Bien joué !';
+    } else {
+        feedbackMessage.className = 'feedback-message incorrect';
+        feedbackMessage.textContent = '✗ Mauvaise réponse. Essaie de voir la démarche ci-dessous.';
+    }
+    
+    // Afficher les boutons d'aide
+    document.getElementById('hintButton').style.display = 'block';
+    document.getElementById('hintButton').textContent = 'Voir la démarche';
 }
 
 /**
@@ -297,7 +366,13 @@ function showHint() {
     
     const exercise = state.themeExercises[state.currentExerciseIndex];
     
-    // Afficher l'indice (simple alerte ou intégré)
+    // Si c'est un exercice avec options, afficher directement la démarche
+    if (exercise.options && exercise.options.length > 0) {
+        showDemo();
+        return;
+    }
+    
+    // Sinon, afficher l'indice comme avant
     alert('💡 Indice : ' + exercise.indice);
     
     state.revealed.hint = true;

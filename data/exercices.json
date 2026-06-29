@@ -16,6 +16,13 @@
       }
     ],
     "indice": "Commence par trouver le nombre de billes bleues : combien font les 3/8 de 24 ?",
+    "options": [
+      "6 billes vertes",
+      "9 billes vertes",
+      "12 billes vertes",
+      "15 billes vertes"
+    ],
+    "correctOptionIndex": 1,
     "demarche": {
       "comprendre": "On cherche le nombre de billes VERTES. Données : 24 billes au total, 3/8 sont bleues, 1/4 sont rouges. « Le reste » désigne les billes qui ne sont ni bleues ni rouges.",
       "organiser": "Stratégie : 1) calculer le nombre de billes bleues; 2) calculer le nombre de billes rouges; 3) les additionner; 4) soustraire ce total de 24.",
@@ -51,7 +58,14 @@
       "resoudre": "Périmètre = 2 × (9 + 4) = 2 × 13 = 26 m. Donc 26 sections. Coût = 26 × 6 = 156 $.",
       "verifier": "On peut additionner les quatre côtés : 9 + 4 + 9 + 4 = 26 m. Puis 26 × 6 = 156 $. La réponse a du sens."
     },
-    "reponse": "Annie doit payer 156 $."
+    "reponse": "Annie doit payer 156 $.",
+    "options": [
+      "161 $",
+      "171 $",
+      "156 $",
+      "78 $"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "frac-002",
@@ -72,7 +86,14 @@
       "resoudre": "40 ÷ 5 = 8. 8 × 1 = 8.",
       "verifier": "Vérification : 1/5 × 40 = 8. Le résultat est plus petit que 40, ce qui est normal pour une fraction inférieure à 1."
     },
-    "reponse": "Cela fait 8."
+    "reponse": "Cela fait 8.",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "7"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-003",
@@ -97,7 +118,14 @@
       "resoudre": "1/4 = 4/16. Puis 4/16 + 1/16 = 5/16.",
       "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
     },
-    "reponse": "5/16 d'une pizza."
+    "reponse": "5/16 d'une pizza.",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "frac-004",
@@ -122,7 +150,14 @@
       "resoudre": "1/6 × 30 = 5. 1/3 × 30 = 10. 5 + 10 = 15. Reste : 30 − 15 = 15.",
       "verifier": "5 + 10 + 15 = 30 : on retrouve le total. La réponse est cohérente."
     },
-    "reponse": "Il y a 15 billes de l'autre sorte."
+    "reponse": "Il y a 15 billes de l'autre sorte.",
+    "options": [
+      "13 billes",
+      "10 billes",
+      "7 billes",
+      "15 billes"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "frac-005",
@@ -147,7 +182,14 @@
       "resoudre": "3/4 × 60 = 45. 1/5 × 60 = 12. 45 + 12 = 57. Reste : 60 − 57 = 3.",
       "verifier": "45 + 12 + 3 = 60 : on retrouve le total. La réponse est cohérente."
     },
-    "reponse": "Il y a 3 crayons de l'autre sorte."
+    "reponse": "Il y a 3 crayons de l'autre sorte.",
+    "options": [
+      "3 crayons",
+      "4 crayons",
+      "1 crayons",
+      "2 crayons"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "frac-006",
@@ -172,7 +214,14 @@
       "resoudre": "1/2 = 4/8. Puis 4/8 + 3/8 = 7/8.",
       "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
     },
-    "reponse": "7/8 de tarte."
+    "reponse": "7/8 de tarte.",
+    "options": [
+      "7",
+      "5",
+      "3",
+      "6"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "frac-007",
@@ -197,7 +246,14 @@
       "resoudre": "1/2 = 4/8. Puis 4/8 + 1/8 = 5/8.",
       "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
     },
-    "reponse": "5/8 d'une pizza."
+    "reponse": "5/8 d'une pizza.",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-008",
@@ -222,7 +278,14 @@
       "resoudre": "1/4 = 3/12. Puis 3/12 + 1/12 = 4/12 = 1/3 (simplifié).",
       "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
     },
-    "reponse": "1/3 d'un litre d'eau."
+    "reponse": "1/3 d'un litre d'eau.",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "8"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-009",
@@ -243,7 +306,14 @@
       "resoudre": "40 ÷ 5 = 8. 8 × 2 = 16.",
       "verifier": "Vérification : 2/5 × 40 = 16. Le résultat est plus petit que 40, ce qui est normal pour une fraction inférieure à 1."
     },
-    "reponse": "Cela fait 16."
+    "reponse": "Cela fait 16.",
+    "options": [
+      "32",
+      "16",
+      "11",
+      "8"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-010",
@@ -268,7 +338,14 @@
       "resoudre": "1/5 = 3/15. Puis 3/15 + 1/15 = 4/15.",
       "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
     },
-    "reponse": "4/15 d'une pizza."
+    "reponse": "4/15 d'une pizza.",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-011",
@@ -293,7 +370,14 @@
       "resoudre": "1/2 × 16 = 8. 3/8 × 16 = 6. 8 + 6 = 14. Reste : 16 − 14 = 2.",
       "verifier": "8 + 6 + 2 = 16 : on retrouve le total. La réponse est cohérente."
     },
-    "reponse": "Il y a 2 crayons de l'autre sorte."
+    "reponse": "Il y a 2 crayons de l'autre sorte.",
+    "options": [
+      "3 crayons",
+      "2 crayons",
+      "1 crayons",
+      "6 crayons"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-012",
@@ -314,7 +398,14 @@
       "resoudre": "60 ÷ 5 = 12. 12 × 1 = 12.",
       "verifier": "Vérification : 1/5 × 60 = 12. Le résultat est plus petit que 60, ce qui est normal pour une fraction inférieure à 1."
     },
-    "reponse": "Cela fait 12."
+    "reponse": "Cela fait 12.",
+    "options": [
+      "7",
+      "36",
+      "6",
+      "12"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "frac-013",
@@ -335,7 +426,14 @@
       "resoudre": "64 ÷ 8 = 8. 8 × 1 = 8.",
       "verifier": "Vérification : 1/8 × 64 = 8. Le résultat est plus petit que 64, ce qui est normal pour une fraction inférieure à 1."
     },
-    "reponse": "Cela fait 8."
+    "reponse": "Cela fait 8.",
+    "options": [
+      "8",
+      "6",
+      "7",
+      "4"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "frac-014",
@@ -360,7 +458,14 @@
       "resoudre": "1/5 = 3/15. Puis 3/15 + 1/15 = 4/15.",
       "verifier": "Les deux fractions ont bien le même dénominateur avant l'addition, et le résultat est inférieur à 1."
     },
-    "reponse": "4/15 d'un litre d'eau."
+    "reponse": "4/15 d'un litre d'eau.",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "frac-015",
@@ -385,7 +490,14 @@
       "resoudre": "1/5 × 60 = 12. 1/2 × 60 = 30. 12 + 30 = 42. Reste : 60 − 42 = 18.",
       "verifier": "12 + 30 + 18 = 60 : on retrouve le total. La réponse est cohérente."
     },
-    "reponse": "Il y a 18 billes de l'autre sorte."
+    "reponse": "Il y a 18 billes de l'autre sorte.",
+    "options": [
+      "36 billes",
+      "18 billes",
+      "13 billes",
+      "9 billes"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "frac-016",
@@ -406,7 +518,14 @@
       "resoudre": "32 ÷ 2 = 16. 16 × 1 = 16.",
       "verifier": "Vérification : 1/2 × 32 = 16. Le résultat est plus petit que 32, ce qui est normal pour une fraction inférieure à 1."
     },
-    "reponse": "Cela fait 16."
+    "reponse": "Cela fait 16.",
+    "options": [
+      "11",
+      "32",
+      "8",
+      "16"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "frac-017",
@@ -427,7 +546,14 @@
       "resoudre": "18 ÷ 3 = 6. 6 × 2 = 12.",
       "verifier": "Vérification : 2/3 × 18 = 12. Le résultat est plus petit que 18, ce qui est normal pour une fraction inférieure à 1."
     },
-    "reponse": "Cela fait 12."
+    "reponse": "Cela fait 12.",
+    "options": [
+      "12",
+      "36",
+      "6",
+      "7"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "frac-018",
@@ -448,7 +574,14 @@
       "resoudre": "60 ÷ 10 = 6. 6 × 9 = 54.",
       "verifier": "Vérification : 9/10 × 60 = 54. Le résultat est plus petit que 60, ce qui est normal pour une fraction inférieure à 1."
     },
-    "reponse": "Cela fait 54."
+    "reponse": "Cela fait 54.",
+    "options": [
+      "27",
+      "162",
+      "108",
+      "54"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "perim-002",
@@ -469,7 +602,14 @@
       "resoudre": "P = 4 × 9 = 36 cm.",
       "verifier": "9+9+9+9 = 36 cm."
     },
-    "reponse": "Le périmètre est de 36 cm."
+    "reponse": "Le périmètre est de 36 cm.",
+    "options": [
+      "72 cm",
+      "37 cm",
+      "36 cm",
+      "35 cm"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "perim-003",
@@ -494,7 +634,14 @@
       "resoudre": "A = 6 × 4 = 24 m².",
       "verifier": "Les unités sont en m² (surface), ce qui confirme qu'on a calculé une aire et non un périmètre."
     },
-    "reponse": "L'aire est de 24 m²."
+    "reponse": "L'aire est de 24 m².",
+    "options": [
+      "12 m²",
+      "14 m²",
+      "24 m²",
+      "39 m²"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "perim-004",
@@ -519,7 +666,14 @@
       "resoudre": "A = 11 × 5 = 55 m².",
       "verifier": "Les unités sont en m² (surface), ce qui confirme qu'on a calculé une aire et non un périmètre."
     },
-    "reponse": "L'aire est de 55 m²."
+    "reponse": "L'aire est de 55 m².",
+    "options": [
+      "45 m²",
+      "70 m²",
+      "55 m²",
+      "110 m²"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "perim-005",
@@ -544,7 +698,14 @@
       "resoudre": "A = (4 × 5) ÷ 2 = 20 ÷ 2 = 10 cm².",
       "verifier": "L'aire d'un triangle est la moitié de celle du rectangle 4 × 5 = 20 cm². La moitié donne bien 10 cm²."
     },
-    "reponse": "L'aire est de 10 cm²."
+    "reponse": "L'aire est de 10 cm².",
+    "options": [
+      "5 m²",
+      "10 m²",
+      "9 m²",
+      "11 m²"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "perim-006",
@@ -569,7 +730,14 @@
       "resoudre": "A = (12 × 9) ÷ 2 = 108 ÷ 2 = 54 cm².",
       "verifier": "L'aire d'un triangle est la moitié de celle du rectangle 12 × 9 = 108 cm². La moitié donne bien 54 cm²."
     },
-    "reponse": "L'aire est de 54 cm²."
+    "reponse": "L'aire est de 54 cm².",
+    "options": [
+      "54 m²",
+      "69 m²",
+      "108 m²",
+      "27 m²"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "perim-007",
@@ -594,7 +762,14 @@
       "resoudre": "A = 4 × 4 = 16 m².",
       "verifier": "Les unités sont en m² (surface), ce qui confirme qu'on a calculé une aire et non un périmètre."
     },
-    "reponse": "L'aire est de 16 m²."
+    "reponse": "L'aire est de 16 m².",
+    "options": [
+      "32 m²",
+      "6 m²",
+      "8 m²",
+      "16 m²"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "perim-008",
@@ -615,7 +790,14 @@
       "resoudre": "A = 10 × 10 = 100 cm².",
       "verifier": "Le résultat est en cm² (surface), ce qui est cohérent avec une aire."
     },
-    "reponse": "L'aire est de 100 cm²."
+    "reponse": "L'aire est de 100 cm².",
+    "options": [
+      "101 m²",
+      "200 m²",
+      "99 m²",
+      "100 m²"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "perim-009",
@@ -640,7 +822,14 @@
       "resoudre": "P = 2 × (15 + 9) = 2 × 24 = 48 m. Coût = 48 × 3 = 144 $.",
       "verifier": "Somme des 4 côtés : 15+9+15+9 = 48 m. 48 × 3 = 144 $."
     },
-    "reponse": "Le coût total sera de 144 $."
+    "reponse": "Le coût total sera de 144 $.",
+    "options": [
+      "144 $",
+      "134 $",
+      "288 $",
+      "72 $"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "perim-010",
@@ -665,7 +854,14 @@
       "resoudre": "P = 2 × (12 + 5) = 2 × 17 = 34 m. Coût = 34 × 3 = 102 $.",
       "verifier": "Somme des 4 côtés : 12+5+12+5 = 34 m. 34 × 3 = 102 $."
     },
-    "reponse": "Le coût total sera de 102 $."
+    "reponse": "Le coût total sera de 102 $.",
+    "options": [
+      "97 $",
+      "102 $",
+      "101 $",
+      "103 $"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "perim-011",
@@ -690,7 +886,14 @@
       "resoudre": "P = 2 × (5 + 3) = 2 × 8 = 16 m. Coût = 16 × 8 = 128 $.",
       "verifier": "Somme des 4 côtés : 5+3+5+3 = 16 m. 16 × 8 = 128 $."
     },
-    "reponse": "Le coût total sera de 128 $."
+    "reponse": "Le coût total sera de 128 $.",
+    "options": [
+      "64 $",
+      "256 $",
+      "129 $",
+      "128 $"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "perim-012",
@@ -715,7 +918,14 @@
       "resoudre": "A = (12 × 3) ÷ 2 = 36 ÷ 2 = 18 cm².",
       "verifier": "L'aire d'un triangle est la moitié de celle du rectangle 12 × 3 = 36 cm². La moitié donne bien 18 cm²."
     },
-    "reponse": "L'aire est de 18 cm²."
+    "reponse": "L'aire est de 18 cm².",
+    "options": [
+      "33 m²",
+      "36 m²",
+      "8 m²",
+      "18 m²"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "perim-013",
@@ -740,7 +950,14 @@
       "resoudre": "A = 10 × 5 = 50 m².",
       "verifier": "Les unités sont en m² (surface), ce qui confirme qu'on a calculé une aire et non un périmètre."
     },
-    "reponse": "L'aire est de 50 m²."
+    "reponse": "L'aire est de 50 m².",
+    "options": [
+      "65 m²",
+      "40 m²",
+      "50 m²",
+      "100 m²"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "perim-014",
@@ -765,7 +982,14 @@
       "resoudre": "A = (8 × 9) ÷ 2 = 72 ÷ 2 = 36 cm².",
       "verifier": "L'aire d'un triangle est la moitié de celle du rectangle 8 × 9 = 72 cm². La moitié donne bien 36 cm²."
     },
-    "reponse": "L'aire est de 36 cm²."
+    "reponse": "L'aire est de 36 cm².",
+    "options": [
+      "35 m²",
+      "37 m²",
+      "36 m²",
+      "72 m²"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "perim-015",
@@ -786,7 +1010,14 @@
       "resoudre": "A = 5 × 5 = 25 cm².",
       "verifier": "Le résultat est en cm² (surface), ce qui est cohérent avec une aire."
     },
-    "reponse": "L'aire est de 25 cm²."
+    "reponse": "L'aire est de 25 cm².",
+    "options": [
+      "12 m²",
+      "40 m²",
+      "15 m²",
+      "25 m²"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "perim-016",
@@ -807,7 +1038,14 @@
       "resoudre": "A = 11 × 11 = 121 cm².",
       "verifier": "Le résultat est en cm² (surface), ce qui est cohérent avec une aire."
     },
-    "reponse": "L'aire est de 121 cm²."
+    "reponse": "L'aire est de 121 cm².",
+    "options": [
+      "121 m²",
+      "136 m²",
+      "111 m²",
+      "242 m²"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "perim-017",
@@ -832,7 +1070,14 @@
       "resoudre": "P = 2 × (6 + 5) = 2 × 11 = 22 m. Coût = 22 × 5 = 110 $.",
       "verifier": "Somme des 4 côtés : 6+5+6+5 = 22 m. 22 × 5 = 110 $."
     },
-    "reponse": "Le coût total sera de 110 $."
+    "reponse": "Le coût total sera de 110 $.",
+    "options": [
+      "105 $",
+      "100 $",
+      "109 $",
+      "110 $"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "perim-018",
@@ -853,7 +1098,14 @@
       "resoudre": "P = 4 × 15 = 60 cm.",
       "verifier": "15+15+15+15 = 60 cm."
     },
-    "reponse": "Le périmètre est de 60 cm."
+    "reponse": "Le périmètre est de 60 cm.",
+    "options": [
+      "60 cm",
+      "75 cm",
+      "50 cm",
+      "65 cm"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "ent-001",
@@ -878,7 +1130,14 @@
       "resoudre": "-1 + 4 = 3.",
       "verifier": "Une hausse rend le nombre plus grand, une baisse le rend plus petit. Ici la température passe à 3 °C, ce qui est cohérent."
     },
-    "reponse": "La nouvelle température est de 3 °C."
+    "reponse": "La nouvelle température est de 3 °C.",
+    "options": [
+      "2 °C",
+      "4 °C",
+      "3 °C",
+      "1 °C"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "ent-002",
@@ -899,7 +1158,14 @@
       "resoudre": "9 − (-18) = 9 + 18 = 27.",
       "verifier": "Soustraire un nombre négatif revient à additionner. L'écart 27 °C est positif, ce qui est normal pour une étendue."
     },
-    "reponse": "L'étendue est de 27 °C."
+    "reponse": "L'étendue est de 27 °C.",
+    "options": [
+      "32 °C",
+      "27 °C",
+      "54 °C",
+      "13 °C"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "ent-003",
@@ -920,7 +1186,14 @@
       "resoudre": "8 − (-4) = 8 + 4 = 12.",
       "verifier": "Soustraire un nombre négatif revient à additionner. L'écart 12 °C est positif, ce qui est normal pour une étendue."
     },
-    "reponse": "L'étendue est de 12 °C."
+    "reponse": "L'étendue est de 12 °C.",
+    "options": [
+      "12 °C",
+      "7 °C",
+      "6 °C",
+      "11 °C"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "ent-004",
@@ -945,7 +1218,14 @@
       "resoudre": "-27 + 26 = -1.",
       "verifier": "Il reste sous la surface, à -1 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -1 m."
+    "reponse": "Il se trouve à -1 m.",
+    "options": [
+      "11 m",
+      "16 m",
+      "2 m",
+      "1 m"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "ent-005",
@@ -970,7 +1250,14 @@
       "resoudre": "-2 + 12 = 10.",
       "verifier": "Une hausse rend le nombre plus grand, une baisse le rend plus petit. Ici la température passe à 10 °C, ce qui est cohérent."
     },
-    "reponse": "La nouvelle température est de 10 °C."
+    "reponse": "La nouvelle température est de 10 °C.",
+    "options": [
+      "10 °C",
+      "20 °C",
+      "11 °C",
+      "9 °C"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "ent-006",
@@ -991,7 +1278,14 @@
       "resoudre": "6 − (-13) = 6 + 13 = 19.",
       "verifier": "Soustraire un nombre négatif revient à additionner. L'écart 19 °C est positif, ce qui est normal pour une étendue."
     },
-    "reponse": "L'étendue est de 19 °C."
+    "reponse": "L'étendue est de 19 °C.",
+    "options": [
+      "19 °C",
+      "38 °C",
+      "9 °C",
+      "14 °C"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "ent-007",
@@ -1016,7 +1310,14 @@
       "resoudre": "-17 + 17 = 0.",
       "verifier": "Le résultat 0 m a du sens."
     },
-    "reponse": "Il se trouve à 0 m."
+    "reponse": "Il se trouve à 0 m.",
+    "options": [
+      "10 m",
+      "3 m",
+      "15 m",
+      "0 m"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "ent-008",
@@ -1041,7 +1342,14 @@
       "resoudre": "-6 + 4 = -2.",
       "verifier": "Il reste sous la surface, à -2 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -2 m."
+    "reponse": "Il se trouve à -2 m.",
+    "options": [
+      "3 m",
+      "12 m",
+      "2 m",
+      "1 m"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "ent-009",
@@ -1066,7 +1374,14 @@
       "resoudre": "-17 + 13 = -4.",
       "verifier": "Il reste sous la surface, à -4 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -4 m."
+    "reponse": "Il se trouve à -4 m.",
+    "options": [
+      "2 m",
+      "4 m",
+      "8 m",
+      "3 m"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "ent-010",
@@ -1091,7 +1406,14 @@
       "resoudre": "-28 + 4 = -24.",
       "verifier": "Il reste sous la surface, à -24 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -24 m."
+    "reponse": "Il se trouve à -24 m.",
+    "options": [
+      "48 m",
+      "12 m",
+      "19 m",
+      "24 m"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "ent-011",
@@ -1116,7 +1438,14 @@
       "resoudre": "-5 + 9 = 4.",
       "verifier": "Une hausse rend le nombre plus grand, une baisse le rend plus petit. Ici la température passe à 4 °C, ce qui est cohérent."
     },
-    "reponse": "La nouvelle température est de 4 °C."
+    "reponse": "La nouvelle température est de 4 °C.",
+    "options": [
+      "3 °C",
+      "2 °C",
+      "4 °C",
+      "8 °C"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "ent-012",
@@ -1141,7 +1470,14 @@
       "resoudre": "-35 + 2 = -33.",
       "verifier": "Il reste sous la surface, à -33 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -33 m."
+    "reponse": "Il se trouve à -33 m.",
+    "options": [
+      "66 m",
+      "33 m",
+      "34 m",
+      "32 m"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "ent-013",
@@ -1166,7 +1502,14 @@
       "resoudre": "-10 + 3 = -7.",
       "verifier": "Il reste sous la surface, à -7 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -7 m."
+    "reponse": "Il se trouve à -7 m.",
+    "options": [
+      "7 m",
+      "8 m",
+      "3 m",
+      "6 m"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "ent-014",
@@ -1191,7 +1534,14 @@
       "resoudre": "-35 + 13 = -22.",
       "verifier": "Il reste sous la surface, à -22 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -22 m."
+    "reponse": "Il se trouve à -22 m.",
+    "options": [
+      "44 m",
+      "17 m",
+      "11 m",
+      "22 m"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "ent-015",
@@ -1216,7 +1566,14 @@
       "resoudre": "-10 + 8 = -2.",
       "verifier": "Il reste sous la surface, à -2 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -2 m."
+    "reponse": "Il se trouve à -2 m.",
+    "options": [
+      "12 m",
+      "3 m",
+      "2 m",
+      "1 m"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "ent-016",
@@ -1241,7 +1598,14 @@
       "resoudre": "-10 + 4 = -6.",
       "verifier": "Il reste sous la surface, à -6 m, ce qui est logique puisqu'il n'a pas remonté tout le chemin."
     },
-    "reponse": "Il se trouve à -6 m."
+    "reponse": "Il se trouve à -6 m.",
+    "options": [
+      "5 m",
+      "6 m",
+      "3 m",
+      "12 m"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "ent-017",
@@ -1266,7 +1630,14 @@
       "resoudre": "-12 − 4 = -16.",
       "verifier": "Une hausse rend le nombre plus grand, une baisse le rend plus petit. Ici la température passe à -16 °C, ce qui est cohérent."
     },
-    "reponse": "La nouvelle température est de -16 °C."
+    "reponse": "La nouvelle température est de -16 °C.",
+    "options": [
+      "32 °C",
+      "16 °C",
+      "11 °C",
+      "8 °C"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "prio-001",
@@ -1291,7 +1662,14 @@
       "resoudre": "5 × 7 = 35. 3 × 4 = 12. Total : 35 + 12 = 47 $.",
       "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 47 $."
     },
-    "reponse": "Olivia paie 47 $ en tout."
+    "reponse": "Olivia paie 47 $ en tout.",
+    "options": [
+      "46 $",
+      "48 $",
+      "42 $",
+      "47 $"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "prio-002",
@@ -1316,7 +1694,14 @@
       "resoudre": "3 × 8 = 24. 3 × 5 = 15. Total : 24 + 15 = 39 $.",
       "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 39 $."
     },
-    "reponse": "Liam paie 39 $ en tout."
+    "reponse": "Liam paie 39 $ en tout.",
+    "options": [
+      "39 $",
+      "40 $",
+      "34 $",
+      "38 $"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "prio-003",
@@ -1341,7 +1726,14 @@
       "resoudre": "En respectant l'ordre, 6 + 5 × 7 − 4 = 37.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 37."
     },
-    "reponse": "6 + 5 × 7 − 4 = 37."
+    "reponse": "6 + 5 × 7 − 4 = 37.",
+    "options": [
+      "12",
+      "6",
+      "3",
+      "5"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "prio-004",
@@ -1366,7 +1758,14 @@
       "resoudre": "En respectant l'ordre, (4 + 2) × (7 + 5) = 72.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 72."
     },
-    "reponse": "(4 + 2) × (7 + 5) = 72."
+    "reponse": "(4 + 2) × (7 + 5) = 72.",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "8"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "prio-005",
@@ -1391,7 +1790,14 @@
       "resoudre": "5 × 4 = 20. 3 × 2 = 6. Total : 20 + 6 = 26 $.",
       "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 26 $."
     },
-    "reponse": "Béatrice paie 26 $ en tout."
+    "reponse": "Béatrice paie 26 $ en tout.",
+    "options": [
+      "21 $",
+      "13 $",
+      "52 $",
+      "26 $"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "prio-006",
@@ -1416,7 +1822,14 @@
       "resoudre": "3 × 4 = 12. 3 × 9 = 27. Total : 12 + 27 = 39 $.",
       "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 39 $."
     },
-    "reponse": "Léa paie 39 $ en tout."
+    "reponse": "Léa paie 39 $ en tout.",
+    "options": [
+      "39 $",
+      "34 $",
+      "38 $",
+      "40 $"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "prio-007",
@@ -1441,7 +1854,14 @@
       "resoudre": "4 × 9 = 36. 2 × 2 = 4. Total : 36 + 4 = 40 $.",
       "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 40 $."
     },
-    "reponse": "Noah paie 40 $ en tout."
+    "reponse": "Noah paie 40 $ en tout.",
+    "options": [
+      "41 $",
+      "40 $",
+      "35 $",
+      "39 $"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "prio-008",
@@ -1466,7 +1886,14 @@
       "resoudre": "En respectant l'ordre, 2 + 3 × 9 = 29.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 29."
     },
-    "reponse": "2 + 3 × 9 = 29."
+    "reponse": "2 + 3 × 9 = 29.",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "17"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "prio-009",
@@ -1491,7 +1918,14 @@
       "resoudre": "En respectant l'ordre, 45 ÷ 5 + 7 = 16.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 16."
     },
-    "reponse": "45 ÷ 5 + 7 = 16."
+    "reponse": "45 ÷ 5 + 7 = 16.",
+    "options": [
+      "45",
+      "44",
+      "40",
+      "46"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "prio-010",
@@ -1516,7 +1950,14 @@
       "resoudre": "5 × 5 = 25. 4 × 5 = 20. Total : 25 + 20 = 45 $.",
       "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 45 $."
     },
-    "reponse": "Édouard paie 45 $ en tout."
+    "reponse": "Édouard paie 45 $ en tout.",
+    "options": [
+      "46 $",
+      "45 $",
+      "40 $",
+      "44 $"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "prio-011",
@@ -1541,7 +1982,14 @@
       "resoudre": "En respectant l'ordre, 3 + 8 × 9 = 75.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 75."
     },
-    "reponse": "3 + 8 × 9 = 75."
+    "reponse": "3 + 8 × 9 = 75.",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "prio-012",
@@ -1566,7 +2014,14 @@
       "resoudre": "5 × 3 = 15. 3 × 6 = 18. Total : 15 + 18 = 33 $.",
       "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 33 $."
     },
-    "reponse": "Thomas paie 33 $ en tout."
+    "reponse": "Thomas paie 33 $ en tout.",
+    "options": [
+      "32 $",
+      "33 $",
+      "34 $",
+      "66 $"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "prio-013",
@@ -1591,7 +2046,14 @@
       "resoudre": "3 × 6 = 18. 3 × 9 = 27. Total : 18 + 27 = 45 $.",
       "verifier": "Les multiplications sont faites avant l'addition, comme l'exige la priorité des opérations. Total : 45 $."
     },
-    "reponse": "Samuel paie 45 $ en tout."
+    "reponse": "Samuel paie 45 $ en tout.",
+    "options": [
+      "44 $",
+      "46 $",
+      "40 $",
+      "45 $"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "prio-014",
@@ -1616,7 +2078,14 @@
       "resoudre": "En respectant l'ordre, (9 + 4) × (5 + 3) = 104.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 104."
     },
-    "reponse": "(9 + 4) × (5 + 3) = 104."
+    "reponse": "(9 + 4) × (5 + 3) = 104.",
+    "options": [
+      "10",
+      "9",
+      "18",
+      "8"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "prio-015",
@@ -1641,7 +2110,14 @@
       "resoudre": "En respectant l'ordre, 8 × 7 − 8 = 48.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 48."
     },
-    "reponse": "8 × 7 − 8 = 48."
+    "reponse": "8 × 7 − 8 = 48.",
+    "options": [
+      "9",
+      "4",
+      "16",
+      "8"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "prio-016",
@@ -1666,7 +2142,14 @@
       "resoudre": "En respectant l'ordre, 3 + 7 × 2 − 4 = 13.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 13."
     },
-    "reponse": "3 + 7 × 2 − 4 = 13."
+    "reponse": "3 + 7 × 2 − 4 = 13.",
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "prio-017",
@@ -1691,7 +2174,14 @@
       "resoudre": "En respectant l'ordre, 9 + 2 × 8 − 4 = 21.",
       "verifier": "En refaisant le calcul étape par étape, on obtient bien 21."
     },
-    "reponse": "9 + 2 × 8 − 4 = 21."
+    "reponse": "9 + 2 × 8 − 4 = 21.",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "18"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "dec-001",
@@ -1712,7 +2202,14 @@
       "resoudre": "Total : 2,68 + 5,59 = 8,27 $. Monnaie : 20 − 8,27 = 11,73 $.",
       "verifier": "8,27 + 11,73 = 20,00 $, soit le montant payé. La réponse est correcte."
     },
-    "reponse": "Félix doit recevoir 11,73 $ en monnaie."
+    "reponse": "Félix doit recevoir 11,73 $ en monnaie.",
+    "options": [
+      "73 $",
+      "68 $",
+      "36 $",
+      "72 $"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "dec-002",
@@ -1733,7 +2230,14 @@
       "resoudre": "10 % × 60 = (10 ÷ 100) × 60 = 0,10 × 60 = 6.",
       "verifier": "6 sur 60, c'est bien 10 %."
     },
-    "reponse": "Cela représente 6 billets."
+    "reponse": "Cela représente 6 billets.",
+    "options": [
+      "12 billes",
+      "6 billes",
+      "5 billes",
+      "3 billes"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "dec-003",
@@ -1754,7 +2258,14 @@
       "resoudre": "25 % × 200 = (25 ÷ 100) × 200 = 0,25 × 200 = 50.",
       "verifier": "50 sur 200, c'est bien 25 %."
     },
-    "reponse": "Cela représente 50 élèves."
+    "reponse": "Cela représente 50 élèves.",
+    "options": [
+      "100",
+      "45",
+      "49",
+      "50"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "dec-004",
@@ -1779,7 +2290,14 @@
       "resoudre": "Rabais = 50 % × 50 = 25,00 $. Prix final = 50 − 25,00 = 25,00 $.",
       "verifier": "Le prix final (25,00 $) est plus bas que le prix de départ (50,00 $), ce qui est normal avec un rabais."
     },
-    "reponse": "Le prix après le rabais est de 25,00 $."
+    "reponse": "Le prix après le rabais est de 25,00 $.",
+    "options": [
+      "1 $",
+      "5 $",
+      "0 $",
+      "15 $"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "dec-005",
@@ -1800,7 +2318,14 @@
       "resoudre": "Total : 6,20 + 1,45 = 7,65 $. Monnaie : 100 − 7,65 = 92,35 $.",
       "verifier": "7,65 + 92,35 = 100,00 $, soit le montant payé. La réponse est correcte."
     },
-    "reponse": "Béatrice doit recevoir 92,35 $ en monnaie."
+    "reponse": "Béatrice doit recevoir 92,35 $ en monnaie.",
+    "options": [
+      "34 $",
+      "36 $",
+      "35 $",
+      "70 $"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "dec-006",
@@ -1821,7 +2346,14 @@
       "resoudre": "50 % × 20 = (50 ÷ 100) × 20 = 0,50 × 20 = 10.",
       "verifier": "10 sur 20, c'est bien 50 %."
     },
-    "reponse": "Cela représente 10 billets."
+    "reponse": "Cela représente 10 billets.",
+    "options": [
+      "9 billes",
+      "10 billes",
+      "11 billes",
+      "20 billes"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "dec-007",
@@ -1842,7 +2374,14 @@
       "resoudre": "75 % × 60 = (75 ÷ 100) × 60 = 0,75 × 60 = 45.",
       "verifier": "45 sur 60, c'est bien 75 %."
     },
-    "reponse": "Cela représente 45 élèves."
+    "reponse": "Cela représente 45 élèves.",
+    "options": [
+      "40",
+      "46",
+      "44",
+      "45"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "dec-008",
@@ -1863,7 +2402,14 @@
       "resoudre": "Total : 3,59 + 1,61 = 5,20 $. Monnaie : 20 − 5,20 = 14,80 $.",
       "verifier": "5,20 + 14,80 = 20,00 $, soit le montant payé. La réponse est correcte."
     },
-    "reponse": "Thomas doit recevoir 14,80 $ en monnaie."
+    "reponse": "Thomas doit recevoir 14,80 $ en monnaie.",
+    "options": [
+      "80 $",
+      "40 $",
+      "160 $",
+      "75 $"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "dec-009",
@@ -1884,7 +2430,14 @@
       "resoudre": "5 % × 80 = (5 ÷ 100) × 80 = 0,05 × 80 = 4.",
       "verifier": "4 sur 80, c'est bien 5 %."
     },
-    "reponse": "Cela représente 4 billets."
+    "reponse": "Cela représente 4 billets.",
+    "options": [
+      "4 billes",
+      "8 billes",
+      "3 billes",
+      "2 billes"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "dec-010",
@@ -1905,7 +2458,14 @@
       "resoudre": "Total : 5,16 + 2,19 = 7,35 $. Monnaie : 20 − 7,35 = 12,65 $.",
       "verifier": "7,35 + 12,65 = 20,00 $, soit le montant payé. La réponse est correcte."
     },
-    "reponse": "Olivia doit recevoir 12,65 $ en monnaie."
+    "reponse": "Olivia doit recevoir 12,65 $ en monnaie.",
+    "options": [
+      "32 $",
+      "64 $",
+      "65 $",
+      "66 $"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "dec-011",
@@ -1926,7 +2486,14 @@
       "resoudre": "25 % × 20 = (25 ÷ 100) × 20 = 0,25 × 20 = 5.",
       "verifier": "5 sur 20, c'est bien 25 %."
     },
-    "reponse": "Cela représente 5 élèves."
+    "reponse": "Cela représente 5 élèves.",
+    "options": [
+      "5",
+      "10",
+      "2",
+      "4"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "dec-012",
@@ -1947,7 +2514,14 @@
       "resoudre": "40 % × 60 = (40 ÷ 100) × 60 = 0,40 × 60 = 24.",
       "verifier": "24 sur 60, c'est bien 40 %."
     },
-    "reponse": "Cela représente 24 pommes."
+    "reponse": "Cela représente 24 pommes.",
+    "options": [
+      "48",
+      "24",
+      "12",
+      "19"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "dec-013",
@@ -1968,7 +2542,14 @@
       "resoudre": "50 % × 100 = (50 ÷ 100) × 100 = 0,50 × 100 = 50.",
       "verifier": "50 sur 100, c'est bien 50 %."
     },
-    "reponse": "Cela représente 50 pommes."
+    "reponse": "Cela représente 50 pommes.",
+    "options": [
+      "49",
+      "50",
+      "100",
+      "45"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "dec-014",
@@ -1989,7 +2570,14 @@
       "resoudre": "25 % × 200 = (25 ÷ 100) × 200 = 0,25 × 200 = 50.",
       "verifier": "50 sur 200, c'est bien 25 %."
     },
-    "reponse": "Cela représente 50 élèves."
+    "reponse": "Cela représente 50 élèves.",
+    "options": [
+      "49",
+      "50",
+      "45",
+      "100"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "dec-015",
@@ -2014,7 +2602,14 @@
       "resoudre": "Rabais = 10 % × 20 = 2,00 $. Prix final = 20 − 2,00 = 18,00 $.",
       "verifier": "Le prix final (18,00 $) est plus bas que le prix de départ (20,00 $), ce qui est normal avec un rabais."
     },
-    "reponse": "Le prix après le rabais est de 18,00 $."
+    "reponse": "Le prix après le rabais est de 18,00 $.",
+    "options": [
+      "7 $",
+      "10 $",
+      "1 $",
+      "0 $"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "dec-016",
@@ -2035,7 +2630,14 @@
       "resoudre": "Total : 5,09 + 2,23 = 7,32 $. Monnaie : 50 − 7,32 = 42,68 $.",
       "verifier": "7,32 + 42,68 = 50,00 $, soit le montant payé. La réponse est correcte."
     },
-    "reponse": "Béatrice doit recevoir 42,68 $ en monnaie."
+    "reponse": "Béatrice doit recevoir 42,68 $ en monnaie.",
+    "options": [
+      "34 $",
+      "68 $",
+      "69 $",
+      "67 $"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "dec-017",
@@ -2060,7 +2662,14 @@
       "resoudre": "Rabais = 50 % × 25 = 12,50 $. Prix final = 25 − 12,50 = 12,50 $.",
       "verifier": "Le prix final (12,50 $) est plus bas que le prix de départ (25,00 $), ce qui est normal avec un rabais."
     },
-    "reponse": "Le prix après le rabais est de 12,50 $."
+    "reponse": "Le prix après le rabais est de 12,50 $.",
+    "options": [
+      "49 $",
+      "100 $",
+      "50 $",
+      "45 $"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "stat-001",
@@ -2081,7 +2690,14 @@
       "resoudre": "La valeur 9 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 9 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 9."
+    "reponse": "Le mode est 9.",
+    "options": [
+      "18",
+      "10",
+      "8",
+      "9"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "stat-002",
@@ -2102,7 +2718,14 @@
       "resoudre": "La valeur 6 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 6 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 6."
+    "reponse": "Le mode est 6.",
+    "options": [
+      "3",
+      "12",
+      "6",
+      "5"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "stat-003",
@@ -2123,7 +2746,14 @@
       "resoudre": "Somme = 21 + 17 + 16 + 17 = 71. Moyenne = 71 ÷ 4 = 17,8.",
       "verifier": "La moyenne (17,8) se situe entre la plus petite (16) et la plus grande (21) valeur, ce qui est toujours le cas."
     },
-    "reponse": "La moyenne est de 17,8."
+    "reponse": "La moyenne est de 17,8.",
+    "options": [
+      "17",
+      "8",
+      "34",
+      "12"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "stat-004",
@@ -2144,7 +2774,14 @@
       "resoudre": "La valeur 3 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 3 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 3."
+    "reponse": "Le mode est 3.",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "stat-005",
@@ -2165,7 +2802,14 @@
       "resoudre": "Maximum = 24, minimum = 4. Étendue = 24 − 4 = 20.",
       "verifier": "L'étendue est toujours un nombre positif ou nul, ce qui est le cas ici."
     },
-    "reponse": "L'étendue est de 20."
+    "reponse": "L'étendue est de 20.",
+    "options": [
+      "10",
+      "40",
+      "15",
+      "20"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "stat-006",
@@ -2186,7 +2830,14 @@
       "resoudre": "Somme = 14 + 20 + 17 + 21 + 16 = 88. Moyenne = 88 ÷ 5 = 17,6.",
       "verifier": "La moyenne (17,6) se situe entre la plus petite (14) et la plus grande (21) valeur, ce qui est toujours le cas."
     },
-    "reponse": "La moyenne est de 17,6."
+    "reponse": "La moyenne est de 17,6.",
+    "options": [
+      "17",
+      "8",
+      "34",
+      "12"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "stat-007",
@@ -2207,7 +2858,14 @@
       "resoudre": "Somme = 10 + 11 + 15 + 9 = 45. Moyenne = 45 ÷ 4 = 11,2.",
       "verifier": "La moyenne (11,2) se situe entre la plus petite (9) et la plus grande (15) valeur, ce qui est toujours le cas."
     },
-    "reponse": "La moyenne est de 11,2."
+    "reponse": "La moyenne est de 11,2.",
+    "options": [
+      "5",
+      "10",
+      "11",
+      "6"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "stat-008",
@@ -2228,7 +2886,14 @@
       "resoudre": "Somme = 13 + 11 + 18 + 12 + 16 = 70. Moyenne = 70 ÷ 5 = 14.",
       "verifier": "La moyenne (14) se situe entre la plus petite (11) et la plus grande (18) valeur, ce qui est toujours le cas."
     },
-    "reponse": "La moyenne est de 14."
+    "reponse": "La moyenne est de 14.",
+    "options": [
+      "13",
+      "7",
+      "14",
+      "9"
+    ],
+    "correctOptionIndex": 2
   },
   {
     "id": "stat-009",
@@ -2249,7 +2914,14 @@
       "resoudre": "La valeur 3 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 3 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 3."
+    "reponse": "Le mode est 3.",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "stat-010",
@@ -2270,7 +2942,14 @@
       "resoudre": "Somme = 9 + 8 + 8 + 10 + 13 + 9 = 57. Moyenne = 57 ÷ 6 = 9,5.",
       "verifier": "La moyenne (9,5) se situe entre la plus petite (8) et la plus grande (13) valeur, ce qui est toujours le cas."
     },
-    "reponse": "La moyenne est de 9,5."
+    "reponse": "La moyenne est de 9,5.",
+    "options": [
+      "18",
+      "10",
+      "8",
+      "9"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "stat-011",
@@ -2291,7 +2970,14 @@
       "resoudre": "La valeur 1 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 1 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 1."
+    "reponse": "Le mode est 1.",
+    "options": [
+      "1",
+      "16",
+      "4",
+      "2"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "stat-012",
@@ -2312,7 +2998,14 @@
       "resoudre": "Somme = 11 + 11 + 4 + 11 + 4 = 41. Moyenne = 41 ÷ 5 = 8,2.",
       "verifier": "La moyenne (8,2) se situe entre la plus petite (4) et la plus grande (11) valeur, ce qui est toujours le cas."
     },
-    "reponse": "La moyenne est de 8,2."
+    "reponse": "La moyenne est de 8,2.",
+    "options": [
+      "8",
+      "16",
+      "9",
+      "4"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "stat-013",
@@ -2333,7 +3026,14 @@
       "resoudre": "La valeur 5 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 5 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 5."
+    "reponse": "Le mode est 5.",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "10"
+    ],
+    "correctOptionIndex": 0
   },
   {
     "id": "stat-014",
@@ -2354,7 +3054,14 @@
       "resoudre": "La valeur 8 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 8 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 8."
+    "reponse": "Le mode est 8.",
+    "options": [
+      "16",
+      "8",
+      "9",
+      "4"
+    ],
+    "correctOptionIndex": 1
   },
   {
     "id": "stat-015",
@@ -2375,7 +3082,14 @@
       "resoudre": "Somme = 10 + 9 + 9 + 7 + 5 + 12 = 52. Moyenne = 52 ÷ 6 = 8,7.",
       "verifier": "La moyenne (8,7) se situe entre la plus petite (5) et la plus grande (12) valeur, ce qui est toujours le cas."
     },
-    "reponse": "La moyenne est de 8,7."
+    "reponse": "La moyenne est de 8,7.",
+    "options": [
+      "4",
+      "9",
+      "16",
+      "8"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "stat-016",
@@ -2396,7 +3110,14 @@
       "resoudre": "La valeur 4 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 4 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 4."
+    "reponse": "Le mode est 4.",
+    "options": [
+      "2",
+      "8",
+      "3",
+      "4"
+    ],
+    "correctOptionIndex": 3
   },
   {
     "id": "stat-017",
@@ -2417,6 +3138,13 @@
       "resoudre": "La valeur 2 apparaît plus souvent que les autres.",
       "verifier": "En recomptant, 2 est bien la valeur la plus fréquente de la série."
     },
-    "reponse": "Le mode est 2."
+    "reponse": "Le mode est 2.",
+    "options": [
+      "1",
+      "5",
+      "2",
+      "3"
+    ],
+    "correctOptionIndex": 2
   }
 ]
